@@ -383,6 +383,7 @@ namespace UnityEngine.XR.WSA.Input
         /// <summary>
         /// Sets the current recognizable gestures to the specified set.  Returns
         /// the previous value.
+        /// </summary>
         public GestureSettings SetRecognizableGestures(GestureSettings newMaskValue)
         {
             return (GestureSettings)SetRecognizableGestures_Internal((int)newMaskValue);

@@ -77,7 +77,6 @@ namespace UnityEditorInternal
 
         /// <summary>
         /// If this property returns true the argument "--libil2cpp-static" will be used when calling il2cpp.exe
-
         /// </summary>
         public virtual bool LinkLibIl2CppStatically
         {
