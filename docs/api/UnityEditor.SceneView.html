@@ -1,0 +1,2256 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SceneView
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SceneView
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.SceneView">
+  
+  
+  <h1 id="UnityEditor_SceneView" data-uid="UnityEditor.SceneView" class="text-break">Class SceneView
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="UnityEngine.ScriptableObject.html">ScriptableObject</a></div>
+    <div class="level3"><a class="xref" href="UnityEditor.EditorWindow.html">EditorWindow</a></div>
+    <div class="level4"><a class="xref" href="UnityEditor.SearchableEditorWindow.html">SearchableEditorWindow</a></div>
+    <div class="level5"><span class="xref">SceneView</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityEditor.IHasCustomMenu.html">IHasCustomMenu</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEditor.SearchableEditorWindow.html#UnityEditor_SearchableEditorWindow_m_SearchGroup">SearchableEditorWindow.m_SearchGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_BeginWindows">EditorWindow.BeginWindows()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_EndWindows">EditorWindow.EndWindows()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_wantsMouseMove">EditorWindow.wantsMouseMove</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_wantsMouseEnterLeaveWindow">EditorWindow.wantsMouseEnterLeaveWindow</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowNotification_UnityEngine_GUIContent_">EditorWindow.ShowNotification(GUIContent)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_RemoveNotification">EditorWindow.RemoveNotification()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_autoRepaintOnSceneChange">EditorWindow.autoRepaintOnSceneChange</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_maximized">EditorWindow.maximized</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_focusedWindow">EditorWindow.focusedWindow</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_mouseOverWindow">EditorWindow.mouseOverWindow</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowTab">EditorWindow.ShowTab()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_Focus">EditorWindow.Focus()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowUtility">EditorWindow.ShowUtility()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowPopup">EditorWindow.ShowPopup()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowAsDropDown_UnityEngine_Rect_UnityEngine_Vector2_">EditorWindow.ShowAsDropDown(Rect, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_Show">EditorWindow.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_Show_System_Boolean_">EditorWindow.Show(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_ShowAuxWindow">EditorWindow.ShowAuxWindow()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow_System_Type_System_Boolean_System_String_System_Boolean_">EditorWindow.GetWindow(Type, Boolean, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow_System_Type_System_Boolean_System_String_">EditorWindow.GetWindow(Type, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow_System_Type_System_Boolean_">EditorWindow.GetWindow(Type, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow_System_Type_">EditorWindow.GetWindow(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect_System_Type_UnityEngine_Rect_System_Boolean_System_String_">EditorWindow.GetWindowWithRect(Type, Rect, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect_System_Type_UnityEngine_Rect_System_Boolean_">EditorWindow.GetWindowWithRect(Type, Rect, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect_System_Type_UnityEngine_Rect_">EditorWindow.GetWindowWithRect(Type, Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1">EditorWindow.GetWindow&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_Boolean_">EditorWindow.GetWindow&lt;T&gt;(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_Boolean_System_String_">EditorWindow.GetWindow&lt;T&gt;(Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_String_">EditorWindow.GetWindow&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_String_System_Boolean_">EditorWindow.GetWindow&lt;T&gt;(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_Boolean_System_String_System_Boolean_">EditorWindow.GetWindow&lt;T&gt;(Boolean, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_Type___">EditorWindow.GetWindow&lt;T&gt;(Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_String_System_Type___">EditorWindow.GetWindow&lt;T&gt;(String, Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindow__1_System_String_System_Boolean_System_Type___">EditorWindow.GetWindow&lt;T&gt;(String, Boolean, Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_FocusWindowIfItsOpen_System_Type_">EditorWindow.FocusWindowIfItsOpen(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_FocusWindowIfItsOpen__1">EditorWindow.FocusWindowIfItsOpen&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect__1_UnityEngine_Rect_">EditorWindow.GetWindowWithRect&lt;T&gt;(Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect__1_UnityEngine_Rect_System_Boolean_">EditorWindow.GetWindowWithRect&lt;T&gt;(Rect, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect__1_UnityEngine_Rect_System_Boolean_System_String_">EditorWindow.GetWindowWithRect&lt;T&gt;(Rect, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_GetWindowWithRect__1_UnityEngine_Rect_System_Boolean_System_String_System_Boolean_">EditorWindow.GetWindowWithRect&lt;T&gt;(Rect, Boolean, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_Close">EditorWindow.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_Repaint">EditorWindow.Repaint()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_minSize">EditorWindow.minSize</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_maxSize">EditorWindow.maxSize</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_title">EditorWindow.title</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_titleContent">EditorWindow.titleContent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_depthBufferBits">EditorWindow.depthBufferBits</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_antiAlias">EditorWindow.antiAlias</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_position">EditorWindow.position</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.EditorWindow.html#UnityEditor_EditorWindow_SendEvent_UnityEngine_Event_">EditorWindow.SendEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_SetDirty">ScriptableObject.SetDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance_System_String_">ScriptableObject.CreateInstance(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance_System_Type_">ScriptableObject.CreateInstance(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance__1">ScriptableObject.CreateInstance&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetInstanceID">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_name">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_System_Boolean_">Object.Instantiate(Object, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_System_Boolean_">Object.Instantiate&lt;T&gt;(T, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_System_Single_">Object.Destroy(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_System_Boolean_">Object.DestroyImmediate(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType_System_Type_">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DontDestroyOnLoad_UnityEngine_Object_">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_hideFlags">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_System_Single_">Object.DestroyObject(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_">Object.DestroyObject(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindSceneObjectsOfType_System_Type_">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeIncludingAssets_System_Type_">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType__1">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType__1">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeAll_System_Type_">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType_System_Type_">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_SceneView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SceneView : SearchableEditorWindow, IHasCustomMenu</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView__ctor.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L611">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView__ctor_" data-uid="UnityEditor.SceneView.#ctor*"></a>
+  <h4 id="UnityEditor_SceneView__ctor" data-uid="UnityEditor.SceneView.#ctor">SceneView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneView()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_m_AudioPlay.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.m_AudioPlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L244">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_m_AudioPlay" data-uid="UnityEditor.SceneView.m_AudioPlay">m_AudioPlay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_AudioPlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_m_RenderMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.m_RenderMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L265">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_m_RenderMode" data-uid="UnityEditor.SceneView.m_RenderMode">m_RenderMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use cameraMode instead&quot;, false)]
+public DrawCameraMode m_RenderMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.DrawCameraMode.html">DrawCameraMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_m_SceneLighting.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.m_SceneLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L156">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_m_SceneLighting" data-uid="UnityEditor.SceneView.m_SceneLighting">m_SceneLighting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_SceneLighting</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_m_ValidateTrueMetals.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.m_ValidateTrueMetals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L312">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_m_ValidateTrueMetals" data-uid="UnityEditor.SceneView.m_ValidateTrueMetals">m_ValidateTrueMetals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_ValidateTrueMetals</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_onSceneGUIDelegate.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.onSceneGUIDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L253">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_onSceneGUIDelegate" data-uid="UnityEditor.SceneView.onSceneGUIDelegate">onSceneGUIDelegate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneView.OnSceneFunc onSceneGUIDelegate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.OnSceneFunc.html">SceneView.OnSceneFunc</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_camera.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.camera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L438">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_camera_" data-uid="UnityEditor.SceneView.camera*"></a>
+  <h4 id="UnityEditor_SceneView_camera" data-uid="UnityEditor.SceneView.camera">camera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera camera { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Camera.html">Camera</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_cameraDistance.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.cameraDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L382">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_cameraDistance_" data-uid="UnityEditor.SceneView.cameraDistance*"></a>
+  <h4 id="UnityEditor_SceneView_cameraDistance" data-uid="UnityEditor.SceneView.cameraDistance">cameraDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float cameraDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_cameraMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.cameraMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L282">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_cameraMode_" data-uid="UnityEditor.SceneView.cameraMode*"></a>
+  <h4 id="UnityEditor_SceneView_cameraMode" data-uid="UnityEditor.SceneView.cameraMode">cameraMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneView.CameraMode cameraMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_currentDrawingSceneView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.currentDrawingSceneView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L84">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_currentDrawingSceneView_" data-uid="UnityEditor.SceneView.currentDrawingSceneView*"></a>
+  <h4 id="UnityEditor_SceneView_currentDrawingSceneView" data-uid="UnityEditor.SceneView.currentDrawingSceneView">currentDrawingSceneView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneView currentDrawingSceneView { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.html">SceneView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_customParentForDraggedObjects.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.customParentForDraggedObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L133">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_customParentForDraggedObjects_" data-uid="UnityEditor.SceneView.customParentForDraggedObjects*"></a>
+  <h4 id="UnityEditor_SceneView_customParentForDraggedObjects" data-uid="UnityEditor.SceneView.customParentForDraggedObjects">customParentForDraggedObjects</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform customParentForDraggedObjects { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Transform.html">Transform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_customScene.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.customScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L108">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_customScene_" data-uid="UnityEditor.SceneView.customScene*"></a>
+  <h4 id="UnityEditor_SceneView_customScene" data-uid="UnityEditor.SceneView.customScene">customScene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Scene customScene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_in2DMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.in2DMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L204">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_in2DMode_" data-uid="UnityEditor.SceneView.in2DMode*"></a>
+  <h4 id="UnityEditor_SceneView_in2DMode" data-uid="UnityEditor.SceneView.in2DMode">in2DMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool in2DMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_isRotationLocked.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.isRotationLocked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L219">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_isRotationLocked_" data-uid="UnityEditor.SceneView.isRotationLocked*"></a>
+  <h4 id="UnityEditor_SceneView_isRotationLocked" data-uid="UnityEditor.SceneView.isRotationLocked">isRotationLocked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRotationLocked { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_lastActiveSceneView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.lastActiveSceneView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L74">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_lastActiveSceneView_" data-uid="UnityEditor.SceneView.lastActiveSceneView*"></a>
+  <h4 id="UnityEditor_SceneView_lastActiveSceneView" data-uid="UnityEditor.SceneView.lastActiveSceneView">lastActiveSceneView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneView lastActiveSceneView { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.html">SceneView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_lastSceneViewRotation.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.lastSceneViewRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L348">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_lastSceneViewRotation_" data-uid="UnityEditor.SceneView.lastSceneViewRotation*"></a>
+  <h4 id="UnityEditor_SceneView_lastSceneViewRotation" data-uid="UnityEditor.SceneView.lastSceneViewRotation">lastSceneViewRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion lastSceneViewRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_orthographic.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.orthographic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2142">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_orthographic_" data-uid="UnityEditor.SceneView.orthographic*"></a>
+  <h4 id="UnityEditor_SceneView_orthographic" data-uid="UnityEditor.SceneView.orthographic">orthographic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool orthographic { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_pivot.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.pivot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2124">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_pivot_" data-uid="UnityEditor.SceneView.pivot*"></a>
+  <h4 id="UnityEditor_SceneView_pivot" data-uid="UnityEditor.SceneView.pivot">pivot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 pivot { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_renderMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.renderMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L270">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_renderMode_" data-uid="UnityEditor.SceneView.renderMode*"></a>
+  <h4 id="UnityEditor_SceneView_renderMode" data-uid="UnityEditor.SceneView.renderMode">renderMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use cameraMode instead&quot;, false)]
+public DrawCameraMode renderMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.DrawCameraMode.html">DrawCameraMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_rotation.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.rotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2127">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_rotation_" data-uid="UnityEditor.SceneView.rotation*"></a>
+  <h4 id="UnityEditor_SceneView_rotation" data-uid="UnityEditor.SceneView.rotation">rotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion rotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_sceneViews.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.sceneViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L407">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_sceneViews_" data-uid="UnityEditor.SceneView.sceneViews*"></a>
+  <h4 id="UnityEditor_SceneView_sceneViews" data-uid="UnityEditor.SceneView.sceneViews">sceneViews</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArrayList sceneViews { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_sceneViewState.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.sceneViewState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L318">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_sceneViewState_" data-uid="UnityEditor.SceneView.sceneViewState*"></a>
+  <h4 id="UnityEditor_SceneView_sceneViewState" data-uid="UnityEditor.SceneView.sceneViewState">sceneViewState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SceneView.SceneViewState sceneViewState { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.SceneViewState.html">SceneView.SceneViewState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_size.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2129">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_size_" data-uid="UnityEditor.SceneView.size*"></a>
+  <h4 id="UnityEditor_SceneView_size" data-uid="UnityEditor.SceneView.size">size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float size { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_AddCameraMode_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.AddCameraMode(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2996">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_AddCameraMode_" data-uid="UnityEditor.SceneView.AddCameraMode*"></a>
+  <h4 id="UnityEditor_SceneView_AddCameraMode_System_String_System_String_" data-uid="UnityEditor.SceneView.AddCameraMode(System.String,System.String)">AddCameraMode(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneView.CameraMode AddCameraMode(string name, string section)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">section</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_AddItemsToMenu_UnityEditor_GenericMenu_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.AddItemsToMenu(UnityEditor.GenericMenu)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L934">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_AddItemsToMenu_" data-uid="UnityEditor.SceneView.AddItemsToMenu*"></a>
+  <h4 id="UnityEditor_SceneView_AddItemsToMenu_UnityEditor_GenericMenu_" data-uid="UnityEditor.SceneView.AddItemsToMenu(UnityEditor.GenericMenu)">AddItemsToMenu(GenericMenu)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AddItemsToMenu(GenericMenu menu)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.GenericMenu.html">GenericMenu</a></td>
+        <td><span class="parametername">menu</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_AlignViewToObject_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.AlignViewToObject(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2648">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_AlignViewToObject_" data-uid="UnityEditor.SceneView.AlignViewToObject*"></a>
+  <h4 id="UnityEditor_SceneView_AlignViewToObject_UnityEngine_Transform_" data-uid="UnityEditor.SceneView.AlignViewToObject(UnityEngine.Transform)">AlignViewToObject(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AlignViewToObject(Transform t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Transform.html">Transform</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_AlignWithView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.AlignWithView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2655">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_AlignWithView_" data-uid="UnityEditor.SceneView.AlignWithView*"></a>
+  <h4 id="UnityEditor_SceneView_AlignWithView" data-uid="UnityEditor.SceneView.AlignWithView">AlignWithView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AlignWithView()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_ClearUserDefinedCameraModes.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.ClearUserDefinedCameraModes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L3029">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_ClearUserDefinedCameraModes_" data-uid="UnityEditor.SceneView.ClearUserDefinedCameraModes*"></a>
+  <h4 id="UnityEditor_SceneView_ClearUserDefinedCameraModes" data-uid="UnityEditor.SceneView.ClearUserDefinedCameraModes">ClearUserDefinedCameraModes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearUserDefinedCameraModes()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FixNegativeSize.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FixNegativeSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2152">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FixNegativeSize_" data-uid="UnityEditor.SceneView.FixNegativeSize*"></a>
+  <h4 id="UnityEditor_SceneView_FixNegativeSize" data-uid="UnityEditor.SceneView.FixNegativeSize">FixNegativeSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FixNegativeSize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_Frame_UnityEngine_Bounds_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.Frame(UnityEngine.Bounds%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2747">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_Frame_" data-uid="UnityEditor.SceneView.Frame*"></a>
+  <h4 id="UnityEditor_SceneView_Frame_UnityEngine_Bounds_System_Boolean_" data-uid="UnityEditor.SceneView.Frame(UnityEngine.Bounds,System.Boolean)">Frame(Bounds, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Frame(Bounds bounds, bool instant = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Bounds.html">Bounds</a></td>
+        <td><span class="parametername">bounds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">instant</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FrameLastActiveSceneView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FrameLastActiveSceneView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L487">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FrameLastActiveSceneView_" data-uid="UnityEditor.SceneView.FrameLastActiveSceneView*"></a>
+  <h4 id="UnityEditor_SceneView_FrameLastActiveSceneView" data-uid="UnityEditor.SceneView.FrameLastActiveSceneView">FrameLastActiveSceneView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool FrameLastActiveSceneView()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FrameLastActiveSceneViewWithLock.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FrameLastActiveSceneViewWithLock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L495">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FrameLastActiveSceneViewWithLock_" data-uid="UnityEditor.SceneView.FrameLastActiveSceneViewWithLock*"></a>
+  <h4 id="UnityEditor_SceneView_FrameLastActiveSceneViewWithLock" data-uid="UnityEditor.SceneView.FrameLastActiveSceneViewWithLock">FrameLastActiveSceneViewWithLock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool FrameLastActiveSceneViewWithLock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FrameSelected.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FrameSelected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2702">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FrameSelected_" data-uid="UnityEditor.SceneView.FrameSelected*"></a>
+  <h4 id="UnityEditor_SceneView_FrameSelected" data-uid="UnityEditor.SceneView.FrameSelected">FrameSelected()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FrameSelected()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FrameSelected_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FrameSelected(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2707">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FrameSelected_" data-uid="UnityEditor.SceneView.FrameSelected*"></a>
+  <h4 id="UnityEditor_SceneView_FrameSelected_System_Boolean_" data-uid="UnityEditor.SceneView.FrameSelected(System.Boolean)">FrameSelected(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FrameSelected(bool lockView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">lockView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_FrameSelected_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.FrameSelected(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2712">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_FrameSelected_" data-uid="UnityEditor.SceneView.FrameSelected*"></a>
+  <h4 id="UnityEditor_SceneView_FrameSelected_System_Boolean_System_Boolean_" data-uid="UnityEditor.SceneView.FrameSelected(System.Boolean,System.Boolean)">FrameSelected(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool FrameSelected(bool lockView, bool instant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">lockView</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">instant</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_GetAllSceneCameras.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.GetAllSceneCameras%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L510">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_GetAllSceneCameras_" data-uid="UnityEditor.SceneView.GetAllSceneCameras*"></a>
+  <h4 id="UnityEditor_SceneView_GetAllSceneCameras" data-uid="UnityEditor.SceneView.GetAllSceneCameras">GetAllSceneCameras()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Camera[] GetAllSceneCameras()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Camera.html">Camera</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_GetBuiltinCameraMode_UnityEditor_DrawCameraMode_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.GetBuiltinCameraMode(UnityEditor.DrawCameraMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L3034">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_GetBuiltinCameraMode_" data-uid="UnityEditor.SceneView.GetBuiltinCameraMode*"></a>
+  <h4 id="UnityEditor_SceneView_GetBuiltinCameraMode_UnityEditor_DrawCameraMode_" data-uid="UnityEditor.SceneView.GetBuiltinCameraMode(UnityEditor.DrawCameraMode)">GetBuiltinCameraMode(DrawCameraMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneView.CameraMode GetBuiltinCameraMode(DrawCameraMode cameraMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.DrawCameraMode.html">DrawCameraMode</a></td>
+        <td><span class="parametername">cameraMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_IsCameraDrawModeEnabled_UnityEditor_SceneView_CameraMode_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.IsCameraDrawModeEnabled(UnityEditor.SceneView.CameraMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L1171">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_IsCameraDrawModeEnabled_" data-uid="UnityEditor.SceneView.IsCameraDrawModeEnabled*"></a>
+  <h4 id="UnityEditor_SceneView_IsCameraDrawModeEnabled_UnityEditor_SceneView_CameraMode_" data-uid="UnityEditor.SceneView.IsCameraDrawModeEnabled(UnityEditor.SceneView.CameraMode)">IsCameraDrawModeEnabled(SceneView.CameraMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCameraDrawModeEnabled(SceneView.CameraMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAt_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAt(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2402">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAt_" data-uid="UnityEditor.SceneView.LookAt*"></a>
+  <h4 id="UnityEditor_SceneView_LookAt_UnityEngine_Vector3_" data-uid="UnityEditor.SceneView.LookAt(UnityEngine.Vector3)">LookAt(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAt(Vector3 pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAt(UnityEngine.Vector3%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2409">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAt_" data-uid="UnityEditor.SceneView.LookAt*"></a>
+  <h4 id="UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="UnityEditor.SceneView.LookAt(UnityEngine.Vector3,UnityEngine.Quaternion)">LookAt(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAt(Vector3 pos, Quaternion rot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAt(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2429">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAt_" data-uid="UnityEditor.SceneView.LookAt*"></a>
+  <h4 id="UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_" data-uid="UnityEditor.SceneView.LookAt(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single)">LookAt(Vector3, Quaternion, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAt(Vector3 pos, Quaternion rot, float newSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAt(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CSystem.Single%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2451">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAt_" data-uid="UnityEditor.SceneView.LookAt*"></a>
+  <h4 id="UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Boolean_" data-uid="UnityEditor.SceneView.LookAt(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Boolean)">LookAt(Vector3, Quaternion, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAt(Vector3 pos, Quaternion rot, float newSize, bool ortho)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">ortho</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAt(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CSystem.Single%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2457">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAt_" data-uid="UnityEditor.SceneView.LookAt*"></a>
+  <h4 id="UnityEditor_SceneView_LookAt_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Boolean_System_Boolean_" data-uid="UnityEditor.SceneView.LookAt(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Boolean,System.Boolean)">LookAt(Vector3, Quaternion, Single, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAt(Vector3 pos, Quaternion rot, float newSize, bool ortho, bool instant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">ortho</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">instant</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAtDirect_UnityEngine_Vector3_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAtDirect(UnityEngine.Vector3%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2419">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAtDirect_" data-uid="UnityEditor.SceneView.LookAtDirect*"></a>
+  <h4 id="UnityEditor_SceneView_LookAtDirect_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="UnityEditor.SceneView.LookAtDirect(UnityEngine.Vector3,UnityEngine.Quaternion)">LookAtDirect(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAtDirect(Vector3 pos, Quaternion rot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_LookAtDirect_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.LookAtDirect(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2440">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_LookAtDirect_" data-uid="UnityEditor.SceneView.LookAtDirect*"></a>
+  <h4 id="UnityEditor_SceneView_LookAtDirect_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_" data-uid="UnityEditor.SceneView.LookAtDirect(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single)">LookAtDirect(Vector3, Quaternion, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LookAtDirect(Vector3 pos, Quaternion rot, float newSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">newSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_MoveToView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.MoveToView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2675">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_MoveToView_" data-uid="UnityEditor.SceneView.MoveToView*"></a>
+  <h4 id="UnityEditor_SceneView_MoveToView" data-uid="UnityEditor.SceneView.MoveToView">MoveToView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToView()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_MoveToView_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.MoveToView(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2688">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_MoveToView_" data-uid="UnityEditor.SceneView.MoveToView*"></a>
+  <h4 id="UnityEditor_SceneView_MoveToView_UnityEngine_Transform_" data-uid="UnityEditor.SceneView.MoveToView(UnityEngine.Transform)">MoveToView(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToView(Transform target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Transform.html">Transform</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_OnDestroy.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L695">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_OnDestroy_" data-uid="UnityEditor.SceneView.OnDestroy*"></a>
+  <h4 id="UnityEditor_SceneView_OnDestroy" data-uid="UnityEditor.SceneView.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDestroy()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_OnDisable.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L659">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_OnDisable_" data-uid="UnityEditor.SceneView.OnDisable*"></a>
+  <h4 id="UnityEditor_SceneView_OnDisable" data-uid="UnityEditor.SceneView.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDisable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SearchableEditorWindow.html#UnityEditor_SearchableEditorWindow_OnDisable">SearchableEditorWindow.OnDisable()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_OnEnable.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L551">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_OnEnable_" data-uid="UnityEditor.SceneView.OnEnable*"></a>
+  <h4 id="UnityEditor_SceneView_OnEnable" data-uid="UnityEditor.SceneView.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnEnable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SearchableEditorWindow.html#UnityEditor_SearchableEditorWindow_OnEnable">SearchableEditorWindow.OnEnable()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_OnGUI.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.OnGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L1847">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_OnGUI_" data-uid="UnityEditor.SceneView.OnGUI*"></a>
+  <h4 id="UnityEditor_SceneView_OnGUI" data-uid="UnityEditor.SceneView.OnGUI">OnGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGUI()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_OnSelectionChange.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.OnSelectionChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L916">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_OnSelectionChange_" data-uid="UnityEditor.SceneView.OnSelectionChange*"></a>
+  <h4 id="UnityEditor_SceneView_OnSelectionChange" data-uid="UnityEditor.SceneView.OnSelectionChange">OnSelectionChange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSelectionChange()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_RepaintAll.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.RepaintAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L522">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_RepaintAll_" data-uid="UnityEditor.SceneView.RepaintAll*"></a>
+  <h4 id="UnityEditor_SceneView_RepaintAll" data-uid="UnityEditor.SceneView.RepaintAll">RepaintAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RepaintAll()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_SetSceneViewFiltering_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.SetSceneViewFiltering(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L1073">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_SetSceneViewFiltering_" data-uid="UnityEditor.SceneView.SetSceneViewFiltering*"></a>
+  <h4 id="UnityEditor_SceneView_SetSceneViewFiltering_System_Boolean_" data-uid="UnityEditor.SceneView.SetSceneViewFiltering(System.Boolean)">SetSceneViewFiltering(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSceneViewFiltering(bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_SetSceneViewShaderReplace_UnityEngine_Shader_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.SetSceneViewShaderReplace(UnityEngine.Shader%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L445">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_SetSceneViewShaderReplace_" data-uid="UnityEditor.SceneView.SetSceneViewShaderReplace*"></a>
+  <h4 id="UnityEditor_SceneView_SetSceneViewShaderReplace_UnityEngine_Shader_System_String_" data-uid="UnityEditor.SceneView.SetSceneViewShaderReplace(UnityEngine.Shader,System.String)">SetSceneViewShaderReplace(Shader, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSceneViewShaderReplace(Shader shader, string replaceString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Shader.html">Shader</a></td>
+        <td><span class="parametername">shader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">replaceString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_ShowCompileErrorNotification.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.ShowCompileErrorNotification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L2927">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_ShowCompileErrorNotification_" data-uid="UnityEditor.SceneView.ShowCompileErrorNotification*"></a>
+  <h4 id="UnityEditor_SceneView_ShowCompileErrorNotification" data-uid="UnityEditor.SceneView.ShowCompileErrorNotification">ShowCompileErrorNotification()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShowCompileErrorNotification()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_SupportsStageHandling.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.SupportsStageHandling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L606">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneView_SupportsStageHandling_" data-uid="UnityEditor.SceneView.SupportsStageHandling*"></a>
+  <h4 id="UnityEditor_SceneView_SupportsStageHandling" data-uid="UnityEditor.SceneView.SupportsStageHandling">SupportsStageHandling()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool SupportsStageHandling()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_onCameraModeChanged.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.onCameraModeChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L160">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_onCameraModeChanged" data-uid="UnityEditor.SceneView.onCameraModeChanged">onCameraModeChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;SceneView.CameraMode&gt; onCameraModeChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView_onValidateCameraMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView.onValidateCameraMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L159">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneView_onValidateCameraMode" data-uid="UnityEditor.SceneView.onValidateCameraMode">onValidateCameraMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SceneView.CameraMode, bool&gt; onValidateCameraMode</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="UnityEditor.SceneView.CameraMode.html">SceneView.CameraMode</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityEditor.IHasCustomMenu.html">IHasCustomMenu</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.Experimental.UIElements.UIElementsEntryPoint.html#UnityEditor_Experimental_UIElements_UIElementsEntryPoint_GetRootVisualContainer_UnityEditor_EditorWindow_">UIElementsEntryPoint.GetRootVisualContainer(EditorWindow)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.Experimental.UIElements.UIElementsEntryPoint.html#UnityEditor_Experimental_UIElements_UIElementsEntryPoint_SetAntiAliasing_UnityEditor_EditorWindow_System_Int32_">UIElementsEntryPoint.SetAntiAliasing(EditorWindow, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.Experimental.UIElements.UIElementsEntryPoint.html#UnityEditor_Experimental_UIElements_UIElementsEntryPoint_GetAntiAliasing_UnityEditor_EditorWindow_">UIElementsEntryPoint.GetAntiAliasing(EditorWindow)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneView.md&amp;value=---%0Auid%3A%20UnityEditor.SceneView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneView/SceneView.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

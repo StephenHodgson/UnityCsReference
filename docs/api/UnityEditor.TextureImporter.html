@@ -1,0 +1,2559 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TextureImporter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TextureImporter
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.TextureImporter">
+  
+  
+  <h1 id="UnityEditor_TextureImporter" data-uid="UnityEditor.TextureImporter" class="text-break">Class TextureImporter
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="UnityEditor.AssetImporter.html">AssetImporter</a></div>
+    <div class="level3"><span class="xref">TextureImporter</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityEditor.Experimental.U2D.ISpriteEditorDataProvider.html">ISpriteEditorDataProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_assetPath">AssetImporter.assetPath</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_importSettingsMissing">AssetImporter.importSettingsMissing</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_assetTimeStamp">AssetImporter.assetTimeStamp</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_userData">AssetImporter.userData</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_assetBundleName">AssetImporter.assetBundleName</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_assetBundleVariant">AssetImporter.assetBundleVariant</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_SetAssetBundleNameAndVariant_System_String_System_String_">AssetImporter.SetAssetBundleNameAndVariant(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_GetAtPath_System_String_">AssetImporter.GetAtPath(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_SaveAndReimport">AssetImporter.SaveAndReimport()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_AddRemap_UnityEditor_AssetImporter_SourceAssetIdentifier_UnityEngine_Object_">AssetImporter.AddRemap(AssetImporter.SourceAssetIdentifier, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_RemoveRemap_UnityEditor_AssetImporter_SourceAssetIdentifier_">AssetImporter.RemoveRemap(AssetImporter.SourceAssetIdentifier)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.AssetImporter.html#UnityEditor_AssetImporter_GetExternalObjectMap">AssetImporter.GetExternalObjectMap()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetInstanceID">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_name">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_System_Boolean_">Object.Instantiate(Object, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_System_Boolean_">Object.Instantiate&lt;T&gt;(T, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_System_Single_">Object.Destroy(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_System_Boolean_">Object.DestroyImmediate(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType_System_Type_">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DontDestroyOnLoad_UnityEngine_Object_">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_hideFlags">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_System_Single_">Object.DestroyObject(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_">Object.DestroyObject(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindSceneObjectsOfType_System_Type_">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeIncludingAssets_System_Type_">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType__1">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType__1">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeAll_System_Type_">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType_System_Type_">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_TextureImporter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class TextureImporter : AssetImporter, ISpriteEditorDataProvider</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UnityEditor_TextureImporter_allowAlphaSplitting_" data-uid="UnityEditor.TextureImporter.allowAlphaSplitting*"></a>
+  <h4 id="UnityEditor_TextureImporter_allowAlphaSplitting" data-uid="UnityEditor.TextureImporter.allowAlphaSplitting">allowAlphaSplitting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowAlphaSplitting { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_alphaIsTransparency_" data-uid="UnityEditor.TextureImporter.alphaIsTransparency*"></a>
+  <h4 id="UnityEditor_TextureImporter_alphaIsTransparency" data-uid="UnityEditor.TextureImporter.alphaIsTransparency">alphaIsTransparency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool alphaIsTransparency { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_alphaSource_" data-uid="UnityEditor.TextureImporter.alphaSource*"></a>
+  <h4 id="UnityEditor_TextureImporter_alphaSource" data-uid="UnityEditor.TextureImporter.alphaSource">alphaSource</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterAlphaSource alphaSource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterAlphaSource.html">TextureImporterAlphaSource</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_alphaTestReferenceValue_" data-uid="UnityEditor.TextureImporter.alphaTestReferenceValue*"></a>
+  <h4 id="UnityEditor_TextureImporter_alphaTestReferenceValue" data-uid="UnityEditor.TextureImporter.alphaTestReferenceValue">alphaTestReferenceValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float alphaTestReferenceValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_androidETC2FallbackOverride_" data-uid="UnityEditor.TextureImporter.androidETC2FallbackOverride*"></a>
+  <h4 id="UnityEditor_TextureImporter_androidETC2FallbackOverride" data-uid="UnityEditor.TextureImporter.androidETC2FallbackOverride">androidETC2FallbackOverride</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AndroidETC2FallbackOverride androidETC2FallbackOverride { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.AndroidETC2FallbackOverride.html">AndroidETC2FallbackOverride</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_anisoLevel_" data-uid="UnityEditor.TextureImporter.anisoLevel*"></a>
+  <h4 id="UnityEditor_TextureImporter_anisoLevel" data-uid="UnityEditor.TextureImporter.anisoLevel">anisoLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int anisoLevel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_borderMipmap_" data-uid="UnityEditor.TextureImporter.borderMipmap*"></a>
+  <h4 id="UnityEditor_TextureImporter_borderMipmap" data-uid="UnityEditor.TextureImporter.borderMipmap">borderMipmap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool borderMipmap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_compressionQuality_" data-uid="UnityEditor.TextureImporter.compressionQuality*"></a>
+  <h4 id="UnityEditor_TextureImporter_compressionQuality" data-uid="UnityEditor.TextureImporter.compressionQuality">compressionQuality</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int compressionQuality { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_convertToNormalmap_" data-uid="UnityEditor.TextureImporter.convertToNormalmap*"></a>
+  <h4 id="UnityEditor_TextureImporter_convertToNormalmap" data-uid="UnityEditor.TextureImporter.convertToNormalmap">convertToNormalmap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool convertToNormalmap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_correctGamma.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.correctGamma%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L250">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_correctGamma_" data-uid="UnityEditor.TextureImporter.correctGamma*"></a>
+  <h4 id="UnityEditor_TextureImporter_correctGamma" data-uid="UnityEditor.TextureImporter.correctGamma">correctGamma</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;correctGamma Property deprecated. Mipmaps are always generated in linear space.&quot;)]
+public bool correctGamma { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_crunchedCompression_" data-uid="UnityEditor.TextureImporter.crunchedCompression*"></a>
+  <h4 id="UnityEditor_TextureImporter_crunchedCompression" data-uid="UnityEditor.TextureImporter.crunchedCompression">crunchedCompression</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool crunchedCompression { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_fadeout_" data-uid="UnityEditor.TextureImporter.fadeout*"></a>
+  <h4 id="UnityEditor_TextureImporter_fadeout" data-uid="UnityEditor.TextureImporter.fadeout">fadeout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool fadeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_filterMode_" data-uid="UnityEditor.TextureImporter.filterMode*"></a>
+  <h4 id="UnityEditor_TextureImporter_filterMode" data-uid="UnityEditor.TextureImporter.filterMode">filterMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FilterMode filterMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.FilterMode.html">FilterMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_generateCubemap_" data-uid="UnityEditor.TextureImporter.generateCubemap*"></a>
+  <h4 id="UnityEditor_TextureImporter_generateCubemap" data-uid="UnityEditor.TextureImporter.generateCubemap">generateCubemap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterGenerateCubemap generateCubemap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterGenerateCubemap.html">TextureImporterGenerateCubemap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_generateMipsInLinearSpace.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.generateMipsInLinearSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L243">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_generateMipsInLinearSpace_" data-uid="UnityEditor.TextureImporter.generateMipsInLinearSpace*"></a>
+  <h4 id="UnityEditor_TextureImporter_generateMipsInLinearSpace" data-uid="UnityEditor.TextureImporter.generateMipsInLinearSpace">generateMipsInLinearSpace</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;generateMipsInLinearSpace Property deprecated. Mipmaps are always generated in linear space.&quot;)]
+public bool generateMipsInLinearSpace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_grayscaleToAlpha.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.grayscaleToAlpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L57">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_grayscaleToAlpha_" data-uid="UnityEditor.TextureImporter.grayscaleToAlpha*"></a>
+  <h4 id="UnityEditor_TextureImporter_grayscaleToAlpha" data-uid="UnityEditor.TextureImporter.grayscaleToAlpha">grayscaleToAlpha</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.alphaSource instead.&quot;)]
+public bool grayscaleToAlpha { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_heightmapScale_" data-uid="UnityEditor.TextureImporter.heightmapScale*"></a>
+  <h4 id="UnityEditor_TextureImporter_heightmapScale" data-uid="UnityEditor.TextureImporter.heightmapScale">heightmapScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float heightmapScale { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_isReadable_" data-uid="UnityEditor.TextureImporter.isReadable*"></a>
+  <h4 id="UnityEditor_TextureImporter_isReadable" data-uid="UnityEditor.TextureImporter.isReadable">isReadable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isReadable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_lightmap.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.lightmap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L267">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_lightmap_" data-uid="UnityEditor.TextureImporter.lightmap*"></a>
+  <h4 id="UnityEditor_TextureImporter_lightmap" data-uid="UnityEditor.TextureImporter.lightmap">lightmap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;lightmap Property deprecated. Check [[TextureImporterSettings.textureType]] instead. Getter will work as expected. Setter will set textureType to Lightmap if true, nothing otherwise.&quot;)]
+public bool lightmap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_linearTexture.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.linearTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L257">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_linearTexture_" data-uid="UnityEditor.TextureImporter.linearTexture*"></a>
+  <h4 id="UnityEditor_TextureImporter_linearTexture" data-uid="UnityEditor.TextureImporter.linearTexture">linearTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;linearTexture Property deprecated. Use sRGBTexture instead.&quot;)]
+public bool linearTexture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_maxTextureSize_" data-uid="UnityEditor.TextureImporter.maxTextureSize*"></a>
+  <h4 id="UnityEditor_TextureImporter_maxTextureSize" data-uid="UnityEditor.TextureImporter.maxTextureSize">maxTextureSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxTextureSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipMapBias_" data-uid="UnityEditor.TextureImporter.mipMapBias*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipMapBias" data-uid="UnityEditor.TextureImporter.mipMapBias">mipMapBias</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float mipMapBias { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipmapEnabled_" data-uid="UnityEditor.TextureImporter.mipmapEnabled*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipmapEnabled" data-uid="UnityEditor.TextureImporter.mipmapEnabled">mipmapEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool mipmapEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipmapFadeDistanceEnd_" data-uid="UnityEditor.TextureImporter.mipmapFadeDistanceEnd*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipmapFadeDistanceEnd" data-uid="UnityEditor.TextureImporter.mipmapFadeDistanceEnd">mipmapFadeDistanceEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mipmapFadeDistanceEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipmapFadeDistanceStart_" data-uid="UnityEditor.TextureImporter.mipmapFadeDistanceStart*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipmapFadeDistanceStart" data-uid="UnityEditor.TextureImporter.mipmapFadeDistanceStart">mipmapFadeDistanceStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mipmapFadeDistanceStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipmapFilter_" data-uid="UnityEditor.TextureImporter.mipmapFilter*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipmapFilter" data-uid="UnityEditor.TextureImporter.mipmapFilter">mipmapFilter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterMipFilter mipmapFilter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterMipFilter.html">TextureImporterMipFilter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_mipMapsPreserveCoverage_" data-uid="UnityEditor.TextureImporter.mipMapsPreserveCoverage*"></a>
+  <h4 id="UnityEditor_TextureImporter_mipMapsPreserveCoverage" data-uid="UnityEditor.TextureImporter.mipMapsPreserveCoverage">mipMapsPreserveCoverage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool mipMapsPreserveCoverage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_normalmap.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.normalmap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L260">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_normalmap_" data-uid="UnityEditor.TextureImporter.normalmap*"></a>
+  <h4 id="UnityEditor_TextureImporter_normalmap" data-uid="UnityEditor.TextureImporter.normalmap">normalmap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;normalmap Property deprecated. Check [[TextureImporterSettings.textureType]] instead. Getter will work as expected. Setter will set textureType to NormalMap if true, nothing otherwise.&quot;)]
+public bool normalmap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_normalmapFilter_" data-uid="UnityEditor.TextureImporter.normalmapFilter*"></a>
+  <h4 id="UnityEditor_TextureImporter_normalmapFilter" data-uid="UnityEditor.TextureImporter.normalmapFilter">normalmapFilter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterNormalFilter normalmapFilter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterNormalFilter.html">TextureImporterNormalFilter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_npotScale_" data-uid="UnityEditor.TextureImporter.npotScale*"></a>
+  <h4 id="UnityEditor_TextureImporter_npotScale" data-uid="UnityEditor.TextureImporter.npotScale">npotScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterNPOTScale npotScale { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterNPOTScale.html">TextureImporterNPOTScale</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_qualifiesForSpritePacking_" data-uid="UnityEditor.TextureImporter.qualifiesForSpritePacking*"></a>
+  <h4 id="UnityEditor_TextureImporter_qualifiesForSpritePacking" data-uid="UnityEditor.TextureImporter.qualifiesForSpritePacking">qualifiesForSpritePacking</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool qualifiesForSpritePacking { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spriteBorder_" data-uid="UnityEditor.TextureImporter.spriteBorder*"></a>
+  <h4 id="UnityEditor_TextureImporter_spriteBorder" data-uid="UnityEditor.TextureImporter.spriteBorder">spriteBorder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector4 spriteBorder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector4.html">Vector4</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spriteImportMode_" data-uid="UnityEditor.TextureImporter.spriteImportMode*"></a>
+  <h4 id="UnityEditor_TextureImporter_spriteImportMode" data-uid="UnityEditor.TextureImporter.spriteImportMode">spriteImportMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteImportMode spriteImportMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SpriteImportMode.html">SpriteImportMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spritePackingTag_" data-uid="UnityEditor.TextureImporter.spritePackingTag*"></a>
+  <h4 id="UnityEditor_TextureImporter_spritePackingTag" data-uid="UnityEditor.TextureImporter.spritePackingTag">spritePackingTag</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string spritePackingTag { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spritePivot_" data-uid="UnityEditor.TextureImporter.spritePivot*"></a>
+  <h4 id="UnityEditor_TextureImporter_spritePivot" data-uid="UnityEditor.TextureImporter.spritePivot">spritePivot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 spritePivot { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spritePixelsPerUnit_" data-uid="UnityEditor.TextureImporter.spritePixelsPerUnit*"></a>
+  <h4 id="UnityEditor_TextureImporter_spritePixelsPerUnit" data-uid="UnityEditor.TextureImporter.spritePixelsPerUnit">spritePixelsPerUnit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spritePixelsPerUnit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spritePixelsToUnits_" data-uid="UnityEditor.TextureImporter.spritePixelsToUnits*"></a>
+  <h4 id="UnityEditor_TextureImporter_spritePixelsToUnits" data-uid="UnityEditor.TextureImporter.spritePixelsToUnits">spritePixelsToUnits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use spritePixelsPerUnit property instead.&quot;)]
+public float spritePixelsToUnits { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_spritesheet_" data-uid="UnityEditor.TextureImporter.spritesheet*"></a>
+  <h4 id="UnityEditor_TextureImporter_spritesheet" data-uid="UnityEditor.TextureImporter.spritesheet">spritesheet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteMetaData[] spritesheet { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SpriteMetaData.html">SpriteMetaData</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_sRGBTexture_" data-uid="UnityEditor.TextureImporter.sRGBTexture*"></a>
+  <h4 id="UnityEditor_TextureImporter_sRGBTexture" data-uid="UnityEditor.TextureImporter.sRGBTexture">sRGBTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sRGBTexture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_streamingMipmaps_" data-uid="UnityEditor.TextureImporter.streamingMipmaps*"></a>
+  <h4 id="UnityEditor_TextureImporter_streamingMipmaps" data-uid="UnityEditor.TextureImporter.streamingMipmaps">streamingMipmaps</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool streamingMipmaps { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_streamingMipmapsPriority_" data-uid="UnityEditor.TextureImporter.streamingMipmapsPriority*"></a>
+  <h4 id="UnityEditor_TextureImporter_streamingMipmapsPriority" data-uid="UnityEditor.TextureImporter.streamingMipmapsPriority">streamingMipmapsPriority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int streamingMipmapsPriority { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_textureCompression_" data-uid="UnityEditor.TextureImporter.textureCompression*"></a>
+  <h4 id="UnityEditor_TextureImporter_textureCompression" data-uid="UnityEditor.TextureImporter.textureCompression">textureCompression</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterCompression textureCompression { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterCompression.html">TextureImporterCompression</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_textureFormat_" data-uid="UnityEditor.TextureImporter.textureFormat*"></a>
+  <h4 id="UnityEditor_TextureImporter_textureFormat" data-uid="UnityEditor.TextureImporter.textureFormat">textureFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;textureFormat is no longer accessible at the TextureImporter level. For old 'simple' formats use the textureCompression property for the equivalent automatic choice (Uncompressed for TrueColor, Compressed and HQCommpressed for 16 bits). For platform specific formats use the [[PlatformTextureSettings]] API. Using this setter will setup various parameters to match the new automatic system as well as possible. Getter will return the last value set.&quot;)]
+public TextureImporterFormat textureFormat { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_textureShape_" data-uid="UnityEditor.TextureImporter.textureShape*"></a>
+  <h4 id="UnityEditor_TextureImporter_textureShape" data-uid="UnityEditor.TextureImporter.textureShape">textureShape</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterShape textureShape { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterShape.html">TextureImporterShape</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_textureType_" data-uid="UnityEditor.TextureImporter.textureType*"></a>
+  <h4 id="UnityEditor_TextureImporter_textureType" data-uid="UnityEditor.TextureImporter.textureType">textureType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterType textureType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterType.html">TextureImporterType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_wrapMode_" data-uid="UnityEditor.TextureImporter.wrapMode*"></a>
+  <h4 id="UnityEditor_TextureImporter_wrapMode" data-uid="UnityEditor.TextureImporter.wrapMode">wrapMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureWrapMode wrapMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureWrapMode.html">TextureWrapMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_wrapModeU_" data-uid="UnityEditor.TextureImporter.wrapModeU*"></a>
+  <h4 id="UnityEditor_TextureImporter_wrapModeU" data-uid="UnityEditor.TextureImporter.wrapModeU">wrapModeU</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureWrapMode wrapModeU { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureWrapMode.html">TextureWrapMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_wrapModeV_" data-uid="UnityEditor.TextureImporter.wrapModeV*"></a>
+  <h4 id="UnityEditor_TextureImporter_wrapModeV" data-uid="UnityEditor.TextureImporter.wrapModeV">wrapModeV</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureWrapMode wrapModeV { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureWrapMode.html">TextureWrapMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_wrapModeW_" data-uid="UnityEditor.TextureImporter.wrapModeW*"></a>
+  <h4 id="UnityEditor_TextureImporter_wrapModeW" data-uid="UnityEditor.TextureImporter.wrapModeW">wrapModeW</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureWrapMode wrapModeW { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureWrapMode.html">TextureWrapMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_ClearPlatformTextureSettings_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.ClearPlatformTextureSettings(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L191">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_ClearPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.ClearPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_ClearPlatformTextureSettings_System_String_" data-uid="UnityEditor.TextureImporter.ClearPlatformTextureSettings(System.String)">ClearPlatformTextureSettings(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlatformTextureSettings(string platform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_DoesSourceTextureHaveAlpha.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.DoesSourceTextureHaveAlpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L351">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_DoesSourceTextureHaveAlpha_" data-uid="UnityEditor.TextureImporter.DoesSourceTextureHaveAlpha*"></a>
+  <h4 id="UnityEditor_TextureImporter_DoesSourceTextureHaveAlpha" data-uid="UnityEditor.TextureImporter.DoesSourceTextureHaveAlpha">DoesSourceTextureHaveAlpha()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DoesSourceTextureHaveAlpha()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_DoesSourceTextureHaveColor.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.DoesSourceTextureHaveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L361">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_DoesSourceTextureHaveColor_" data-uid="UnityEditor.TextureImporter.DoesSourceTextureHaveColor*"></a>
+  <h4 id="UnityEditor_TextureImporter_DoesSourceTextureHaveColor" data-uid="UnityEditor.TextureImporter.DoesSourceTextureHaveColor">DoesSourceTextureHaveColor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;DoesSourceTextureHaveColor always returns true in Unity.&quot;)]
+public bool DoesSourceTextureHaveColor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_GetAllowsAlphaSplitting_" data-uid="UnityEditor.TextureImporter.GetAllowsAlphaSplitting*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetAllowsAlphaSplitting" data-uid="UnityEditor.TextureImporter.GetAllowsAlphaSplitting">GetAllowsAlphaSplitting()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.GetPlatformTextureSettings() instead.&quot;)]
+public bool GetAllowsAlphaSplitting()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetAutomaticFormat_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetAutomaticFormat(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L124">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetAutomaticFormat_" data-uid="UnityEditor.TextureImporter.GetAutomaticFormat*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetAutomaticFormat_System_String_" data-uid="UnityEditor.TextureImporter.GetAutomaticFormat(System.String)">GetAutomaticFormat(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterFormat GetAutomaticFormat(string platform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetDefaultPlatformTextureSettings.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetDefaultPlatformTextureSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L119">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetDefaultPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.GetDefaultPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetDefaultPlatformTextureSettings" data-uid="UnityEditor.TextureImporter.GetDefaultPlatformTextureSettings">GetDefaultPlatformTextureSettings()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterPlatformSettings GetDefaultPlatformTextureSettings()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterPlatformSettings.html">TextureImporterPlatformSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L105">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String)">GetPlatformTextureSettings(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureImporterPlatformSettings GetPlatformTextureSettings(string platform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterPlatformSettings.html">TextureImporterPlatformSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String%2CSystem.Int32%40%2CUnityEditor.TextureImporterFormat%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L92">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String,System.Int32@,UnityEditor.TextureImporterFormat@)">GetPlatformTextureSettings(String, out Int32, out TextureImporterFormat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPlatformTextureSettings(string platform, out int maxTextureSize, out TextureImporterFormat textureFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__System_Int32__.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String%2CSystem.Int32%40%2CUnityEditor.TextureImporterFormat%40%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L86">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__System_Int32__" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String,System.Int32@,UnityEditor.TextureImporterFormat@,System.Int32@)">GetPlatformTextureSettings(String, out Int32, out TextureImporterFormat, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPlatformTextureSettings(string platform, out int maxTextureSize, out TextureImporterFormat textureFormat, out int compressionQuality)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">compressionQuality</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__System_Int32__System_Boolean__.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String%2CSystem.Int32%40%2CUnityEditor.TextureImporterFormat%40%2CSystem.Int32%40%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L75">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_GetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_GetPlatformTextureSettings_System_String_System_Int32__UnityEditor_TextureImporterFormat__System_Int32__System_Boolean__" data-uid="UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String,System.Int32@,UnityEditor.TextureImporterFormat@,System.Int32@,System.Boolean@)">GetPlatformTextureSettings(String, out Int32, out TextureImporterFormat, out Int32, out Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetPlatformTextureSettings(string platform, out int maxTextureSize, out TextureImporterFormat textureFormat, out int compressionQuality, out bool etc1AlphaSplitEnabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">compressionQuality</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">etc1AlphaSplitEnabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_ReadTextureImportInstructions_" data-uid="UnityEditor.TextureImporter.ReadTextureImportInstructions*"></a>
+  <h4 id="UnityEditor_TextureImporter_ReadTextureImportInstructions_UnityEditor_BuildTarget_UnityEngine_TextureFormat__UnityEngine_ColorSpace__System_Int32__" data-uid="UnityEditor.TextureImporter.ReadTextureImportInstructions(UnityEditor.BuildTarget,UnityEngine.TextureFormat@,UnityEngine.ColorSpace@,System.Int32@)">ReadTextureImportInstructions(BuildTarget, out TextureFormat, out ColorSpace, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadTextureImportInstructions(BuildTarget target, out TextureFormat desiredFormat, out ColorSpace colorSpace, out int compressionQuality)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.BuildTarget.html">BuildTarget</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">desiredFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.ColorSpace.html">ColorSpace</a></td>
+        <td><span class="parametername">colorSpace</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">compressionQuality</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_ReadTextureSettings_UnityEditor_TextureImporterSettings_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.ReadTextureSettings(UnityEditor.TextureImporterSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L372">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_ReadTextureSettings_" data-uid="UnityEditor.TextureImporter.ReadTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_ReadTextureSettings_UnityEditor_TextureImporterSettings_" data-uid="UnityEditor.TextureImporter.ReadTextureSettings(UnityEditor.TextureImporterSettings)">ReadTextureSettings(TextureImporterSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadTextureSettings(TextureImporterSettings dest)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterSettings.html">TextureImporterSettings</a></td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_TextureImporter_SetAllowsAlphaSplitting_" data-uid="UnityEditor.TextureImporter.SetAllowsAlphaSplitting*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetAllowsAlphaSplitting_System_Boolean_" data-uid="UnityEditor.TextureImporter.SetAllowsAlphaSplitting(System.Boolean)">SetAllowsAlphaSplitting(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.SetPlatformTextureSettings() instead.&quot;)]
+public void SetAllowsAlphaSplitting(bool flag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">flag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String%2CSystem.Int32%2CUnityEditor.TextureImporterFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L159">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_SetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String,System.Int32,UnityEditor.TextureImporterFormat)">SetPlatformTextureSettings(String, Int32, TextureImporterFormat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.SetPlatformTextureSettings(TextureImporterPlatformSettings) instead.&quot;)]
+public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String%2CSystem.Int32%2CUnityEditor.TextureImporterFormat%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L165">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_SetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_System_Boolean_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String,System.Int32,UnityEditor.TextureImporterFormat,System.Boolean)">SetPlatformTextureSettings(String, Int32, TextureImporterFormat, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.SetPlatformTextureSettings(TextureImporterPlatformSettings) instead.&quot;)]
+public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat, bool allowsAlphaSplit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowsAlphaSplit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String%2CSystem.Int32%2CUnityEditor.TextureImporterFormat%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L147">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_SetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetPlatformTextureSettings_System_String_System_Int32_UnityEditor_TextureImporterFormat_System_Int32_System_Boolean_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String,System.Int32,UnityEditor.TextureImporterFormat,System.Int32,System.Boolean)">SetPlatformTextureSettings(String, Int32, TextureImporterFormat, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use UnityEditor.TextureImporter.SetPlatformTextureSettings(TextureImporterPlatformSettings) instead.&quot;)]
+public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat, int compressionQuality, bool allowsAlphaSplit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">platform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxTextureSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterFormat.html">TextureImporterFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">compressionQuality</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowsAlphaSplit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_SetPlatformTextureSettings_UnityEditor_TextureImporterPlatformSettings_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.SetPlatformTextureSettings(UnityEditor.TextureImporterPlatformSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L180">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_SetPlatformTextureSettings_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetPlatformTextureSettings_UnityEditor_TextureImporterPlatformSettings_" data-uid="UnityEditor.TextureImporter.SetPlatformTextureSettings(UnityEditor.TextureImporterPlatformSettings)">SetPlatformTextureSettings(TextureImporterPlatformSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlatformTextureSettings(TextureImporterPlatformSettings platformSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterPlatformSettings.html">TextureImporterPlatformSettings</a></td>
+        <td><span class="parametername">platformSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_SetTextureSettings_UnityEditor_TextureImporterSettings_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.SetTextureSettings(UnityEditor.TextureImporterSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L378">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_SetTextureSettings_" data-uid="UnityEditor.TextureImporter.SetTextureSettings*"></a>
+  <h4 id="UnityEditor_TextureImporter_SetTextureSettings_UnityEditor_TextureImporterSettings_" data-uid="UnityEditor.TextureImporter.SetTextureSettings(UnityEditor.TextureImporterSettings)">SetTextureSettings(TextureImporterSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTextureSettings(TextureImporterSettings src)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.TextureImporterSettings.html">TextureImporterSettings</a></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_Apply.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23Apply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L80">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_Apply_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#Apply*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_Apply" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#Apply">ISpriteEditorDataProvider.Apply()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISpriteEditorDataProvider.Apply()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetDataProvider__1.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23GetDataProvider%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L127">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetDataProvider_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#GetDataProvider*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetDataProvider__1" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#GetDataProvider``1">ISpriteEditorDataProvider.GetDataProvider&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T ISpriteEditorDataProvider.GetDataProvider&lt;T&gt;()
+    where T : class</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetSpriteRects.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23GetSpriteRects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L28">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetSpriteRects_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#GetSpriteRects*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_GetSpriteRects" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#GetSpriteRects">ISpriteEditorDataProvider.GetSpriteRects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SpriteRect[] ISpriteEditorDataProvider.GetSpriteRects()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SpriteRect.html">SpriteRect</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_HasDataProvider_System_Type_.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23HasDataProvider(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L153">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_HasDataProvider_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#HasDataProvider*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_HasDataProvider_System_Type_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#HasDataProvider(System.Type)">ISpriteEditorDataProvider.HasDataProvider(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISpriteEditorDataProvider.HasDataProvider(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_InitSpriteEditorDataProvider.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23InitSpriteEditorDataProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L112">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_InitSpriteEditorDataProvider_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#InitSpriteEditorDataProvider*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_InitSpriteEditorDataProvider" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#InitSpriteEditorDataProvider">ISpriteEditorDataProvider.InitSpriteEditorDataProvider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISpriteEditorDataProvider.InitSpriteEditorDataProvider()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_pixelsPerUnit.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23pixelsPerUnit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L18">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_pixelsPerUnit_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#pixelsPerUnit*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_pixelsPerUnit" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#pixelsPerUnit">ISpriteEditorDataProvider.pixelsPerUnit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float ISpriteEditorDataProvider.pixelsPerUnit { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_SetSpriteRects_UnityEditor_SpriteRect___.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23SetSpriteRects(UnityEditor.SpriteRect%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L33">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_SetSpriteRects_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#SetSpriteRects*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_SetSpriteRects_UnityEditor_SpriteRect___" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#SetSpriteRects(UnityEditor.SpriteRect[])">ISpriteEditorDataProvider.SetSpriteRects(SpriteRect[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISpriteEditorDataProvider.SetSpriteRects(SpriteRect[] spriteRects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SpriteRect.html">SpriteRect</a>[]</td>
+        <td><span class="parametername">spriteRects</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_targetObject.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter.UnityEditor%23Experimental%23U2D%23ISpriteEditorDataProvider%23targetObject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/2D/SpriteEditorModule/TextureImporter.cs/#L23">View Source</a>
+  </span>
+  <a id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_targetObject_" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#targetObject*"></a>
+  <h4 id="UnityEditor_TextureImporter_UnityEditor_Experimental_U2D_ISpriteEditorDataProvider_targetObject" data-uid="UnityEditor.TextureImporter.UnityEditor#Experimental#U2D#ISpriteEditorDataProvider#targetObject">ISpriteEditorDataProvider.targetObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Object ISpriteEditorDataProvider.targetObject { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityEditor.Experimental.U2D.ISpriteEditorDataProvider.html">ISpriteEditorDataProvider</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_TextureImporter.md&amp;value=---%0Auid%3A%20UnityEditor.TextureImporter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/AssetPipeline/TextureImporter.bindings.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

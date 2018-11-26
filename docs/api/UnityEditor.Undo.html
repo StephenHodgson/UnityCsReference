@@ -1,0 +1,1193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Undo
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Undo
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.Undo">
+  
+  
+  <h1 id="UnityEditor_Undo" data-uid="UnityEditor.Undo" class="text-break">Class Undo
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Undo</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_Undo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Undo</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_postprocessModifications.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.postprocessModifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L181">View Source</a>
+  </span>
+  <h4 id="UnityEditor_Undo_postprocessModifications" data-uid="UnityEditor.Undo.postprocessModifications">postprocessModifications</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Undo.PostprocessModifications postprocessModifications</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Undo.PostprocessModifications.html">Undo.PostprocessModifications</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_undoRedoPerformed.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.undoRedoPerformed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L168">View Source</a>
+  </span>
+  <h4 id="UnityEditor_Undo_undoRedoPerformed" data-uid="UnityEditor.Undo.undoRedoPerformed">undoRedoPerformed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Undo.UndoRedoCallback undoRedoPerformed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Undo.UndoRedoCallback.html">Undo.UndoRedoCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_willFlushUndoRecord.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.willFlushUndoRecord%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L173">View Source</a>
+  </span>
+  <h4 id="UnityEditor_Undo_willFlushUndoRecord" data-uid="UnityEditor.Undo.willFlushUndoRecord">willFlushUndoRecord</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Undo.WillFlushUndoRecord willFlushUndoRecord</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Undo.WillFlushUndoRecord.html">Undo.WillFlushUndoRecord</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UnityEditor_Undo_AddComponent_" data-uid="UnityEditor.Undo.AddComponent*"></a>
+  <h4 id="UnityEditor_Undo_AddComponent_UnityEngine_GameObject_System_Type_" data-uid="UnityEditor.Undo.AddComponent(UnityEngine.GameObject,System.Type)">AddComponent(GameObject, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Component AddComponent(GameObject gameObject, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Component.html">Component</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_AddComponent__1_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.AddComponent%60%601(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L89">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_AddComponent_" data-uid="UnityEditor.Undo.AddComponent*"></a>
+  <h4 id="UnityEditor_Undo_AddComponent__1_UnityEngine_GameObject_" data-uid="UnityEditor.Undo.AddComponent``1(UnityEngine.GameObject)">AddComponent&lt;T&gt;(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AddComponent&lt;T&gt;(GameObject gameObject)
+    where T : Component</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_ClearAll_" data-uid="UnityEditor.Undo.ClearAll*"></a>
+  <h4 id="UnityEditor_Undo_ClearAll" data-uid="UnityEditor.Undo.ClearAll">ClearAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearAll()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_ClearSnapshotTarget.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.ClearSnapshotTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L229">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_ClearSnapshotTarget_" data-uid="UnityEditor.Undo.ClearSnapshotTarget*"></a>
+  <h4 id="UnityEditor_Undo_ClearSnapshotTarget" data-uid="UnityEditor.Undo.ClearSnapshotTarget">ClearSnapshotTarget()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void ClearSnapshotTarget()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_ClearUndo_" data-uid="UnityEditor.Undo.ClearUndo*"></a>
+  <h4 id="UnityEditor_Undo_ClearUndo_UnityEngine_Object_" data-uid="UnityEditor.Undo.ClearUndo(UnityEngine.Object)">ClearUndo(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearUndo(Object identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_CollapseUndoOperations_" data-uid="UnityEditor.Undo.CollapseUndoOperations*"></a>
+  <h4 id="UnityEditor_Undo_CollapseUndoOperations_System_Int32_" data-uid="UnityEditor.Undo.CollapseUndoOperations(System.Int32)">CollapseUndoOperations(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CollapseUndoOperations(int groupIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">groupIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_CreateSnapshot.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.CreateSnapshot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L232">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_CreateSnapshot_" data-uid="UnityEditor.Undo.CreateSnapshot*"></a>
+  <h4 id="UnityEditor_Undo_CreateSnapshot" data-uid="UnityEditor.Undo.CreateSnapshot">CreateSnapshot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void CreateSnapshot()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_DestroyObjectImmediate_UnityEngine_Object_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.DestroyObjectImmediate(UnityEngine.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L76">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_DestroyObjectImmediate_" data-uid="UnityEditor.Undo.DestroyObjectImmediate*"></a>
+  <h4 id="UnityEditor_Undo_DestroyObjectImmediate_UnityEngine_Object_" data-uid="UnityEditor.Undo.DestroyObjectImmediate(UnityEngine.Object)">DestroyObjectImmediate(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyObjectImmediate(Object objectToUndo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_FlushUndoRecordObjects_" data-uid="UnityEditor.Undo.FlushUndoRecordObjects*"></a>
+  <h4 id="UnityEditor_Undo_FlushUndoRecordObjects" data-uid="UnityEditor.Undo.FlushUndoRecordObjects">FlushUndoRecordObjects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlushUndoRecordObjects()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_GetCurrentGroup_" data-uid="UnityEditor.Undo.GetCurrentGroup*"></a>
+  <h4 id="UnityEditor_Undo_GetCurrentGroup" data-uid="UnityEditor.Undo.GetCurrentGroup">GetCurrentGroup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetCurrentGroup()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_GetCurrentGroupName_" data-uid="UnityEditor.Undo.GetCurrentGroupName*"></a>
+  <h4 id="UnityEditor_Undo_GetCurrentGroupName" data-uid="UnityEditor.Undo.GetCurrentGroupName">GetCurrentGroupName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCurrentGroupName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_IncrementCurrentGroup_" data-uid="UnityEditor.Undo.IncrementCurrentGroup*"></a>
+  <h4 id="UnityEditor_Undo_IncrementCurrentGroup" data-uid="UnityEditor.Undo.IncrementCurrentGroup">IncrementCurrentGroup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IncrementCurrentGroup()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_MoveGameObjectToScene_" data-uid="UnityEditor.Undo.MoveGameObjectToScene*"></a>
+  <h4 id="UnityEditor_Undo_MoveGameObjectToScene_UnityEngine_GameObject_UnityEngine_SceneManagement_Scene_System_String_" data-uid="UnityEditor.Undo.MoveGameObjectToScene(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene,System.String)">MoveGameObjectToScene(GameObject, Scene, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MoveGameObjectToScene(GameObject go, Scene scene, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_PerformRedo_" data-uid="UnityEditor.Undo.PerformRedo*"></a>
+  <h4 id="UnityEditor_Undo_PerformRedo" data-uid="UnityEditor.Undo.PerformRedo">PerformRedo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PerformRedo()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_PerformUndo_" data-uid="UnityEditor.Undo.PerformUndo*"></a>
+  <h4 id="UnityEditor_Undo_PerformUndo" data-uid="UnityEditor.Undo.PerformUndo">PerformUndo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PerformUndo()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_RecordObject_" data-uid="UnityEditor.Undo.RecordObject*"></a>
+  <h4 id="UnityEditor_Undo_RecordObject_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.RecordObject(UnityEngine.Object,System.String)">RecordObject(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RecordObject(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RecordObjects_UnityEngine_Object___System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RecordObjects(UnityEngine.Object%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L106">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RecordObjects_" data-uid="UnityEditor.Undo.RecordObjects*"></a>
+  <h4 id="UnityEditor_Undo_RecordObjects_UnityEngine_Object___System_String_" data-uid="UnityEditor.Undo.RecordObjects(UnityEngine.Object[],System.String)">RecordObjects(Object[], String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RecordObjects(Object[] objectsToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a>[]</td>
+        <td><span class="parametername">objectsToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterCompleteObjectUndo_UnityEngine_Object_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L50">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterCompleteObjectUndo_" data-uid="UnityEditor.Undo.RegisterCompleteObjectUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterCompleteObjectUndo_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object,System.String)">RegisterCompleteObjectUndo(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterCompleteObjectUndo(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterCompleteObjectUndo_UnityEngine_Object___System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L56">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterCompleteObjectUndo_" data-uid="UnityEditor.Undo.RegisterCompleteObjectUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterCompleteObjectUndo_UnityEngine_Object___System_String_" data-uid="UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object[],System.String)">RegisterCompleteObjectUndo(Object[], String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterCompleteObjectUndo(Object[] objectsToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a>[]</td>
+        <td><span class="parametername">objectsToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_RegisterCreatedObjectUndo_" data-uid="UnityEditor.Undo.RegisterCreatedObjectUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterCreatedObjectUndo_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.RegisterCreatedObjectUndo(UnityEngine.Object,System.String)">RegisterCreatedObjectUndo(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterCreatedObjectUndo(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterFullObjectHierarchyUndo_UnityEngine_Object_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L97">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterFullObjectHierarchyUndo_" data-uid="UnityEditor.Undo.RegisterFullObjectHierarchyUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterFullObjectHierarchyUndo_UnityEngine_Object_" data-uid="UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object)">RegisterFullObjectHierarchyUndo(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RegisterFullObjectHierarchyUndo(Object, string) instead&quot;)]
+public static void RegisterFullObjectHierarchyUndo(Object objectToUndo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_RegisterFullObjectHierarchyUndo_" data-uid="UnityEditor.Undo.RegisterFullObjectHierarchyUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterFullObjectHierarchyUndo_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object,System.String)">RegisterFullObjectHierarchyUndo(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterFullObjectHierarchyUndo(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterSceneUndo_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterSceneUndo(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L241">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterSceneUndo_" data-uid="UnityEditor.Undo.RegisterSceneUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterSceneUndo_System_String_" data-uid="UnityEditor.Undo.RegisterSceneUndo(System.String)">RegisterSceneUndo(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.&quot;)]
+public static void RegisterSceneUndo(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterSnapshot.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterSnapshot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L238">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterSnapshot_" data-uid="UnityEditor.Undo.RegisterSnapshot*"></a>
+  <h4 id="UnityEditor_Undo_RegisterSnapshot" data-uid="UnityEditor.Undo.RegisterSnapshot">RegisterSnapshot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void RegisterSnapshot()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterUndo_UnityEngine_Object_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterUndo(UnityEngine.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L153">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterUndo_" data-uid="UnityEditor.Undo.RegisterUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterUndo_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.RegisterUndo(UnityEngine.Object,System.String)">RegisterUndo(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RegisterCompleteObjectUndo instead&quot;)]
+public static void RegisterUndo(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RegisterUndo_UnityEngine_Object___System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RegisterUndo(UnityEngine.Object%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L159">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RegisterUndo_" data-uid="UnityEditor.Undo.RegisterUndo*"></a>
+  <h4 id="UnityEditor_Undo_RegisterUndo_UnityEngine_Object___System_String_" data-uid="UnityEditor.Undo.RegisterUndo(UnityEngine.Object[],System.String)">RegisterUndo(Object[], String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RegisterCompleteObjectUndo instead&quot;)]
+public static void RegisterUndo(Object[] objectsToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a>[]</td>
+        <td><span class="parametername">objectsToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_RestoreSnapshot.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.RestoreSnapshot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L235">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_RestoreSnapshot_" data-uid="UnityEditor.Undo.RestoreSnapshot*"></a>
+  <h4 id="UnityEditor_Undo_RestoreSnapshot" data-uid="UnityEditor.Undo.RestoreSnapshot">RestoreSnapshot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void RestoreSnapshot()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_RevertAllDownToGroup_" data-uid="UnityEditor.Undo.RevertAllDownToGroup*"></a>
+  <h4 id="UnityEditor_Undo_RevertAllDownToGroup_System_Int32_" data-uid="UnityEditor.Undo.RevertAllDownToGroup(System.Int32)">RevertAllDownToGroup(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RevertAllDownToGroup(int group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_RevertAllInCurrentGroup_" data-uid="UnityEditor.Undo.RevertAllInCurrentGroup*"></a>
+  <h4 id="UnityEditor_Undo_RevertAllInCurrentGroup" data-uid="UnityEditor.Undo.RevertAllInCurrentGroup">RevertAllInCurrentGroup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RevertAllInCurrentGroup()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_Undo_SetCurrentGroupName_" data-uid="UnityEditor.Undo.SetCurrentGroupName*"></a>
+  <h4 id="UnityEditor_Undo_SetCurrentGroupName_System_String_" data-uid="UnityEditor.Undo.SetCurrentGroupName(System.String)">SetCurrentGroupName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetCurrentGroupName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_SetSnapshotTarget_UnityEngine_Object_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L223">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_SetSnapshotTarget_" data-uid="UnityEditor.Undo.SetSnapshotTarget*"></a>
+  <h4 id="UnityEditor_Undo_SetSnapshotTarget_UnityEngine_Object_System_String_" data-uid="UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object,System.String)">SetSnapshotTarget(Object, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void SetSnapshotTarget(Object objectToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">objectToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo_SetSnapshotTarget_UnityEngine_Object___System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L226">View Source</a>
+  </span>
+  <a id="UnityEditor_Undo_SetSnapshotTarget_" data-uid="UnityEditor.Undo.SetSnapshotTarget*"></a>
+  <h4 id="UnityEditor_Undo_SetSnapshotTarget_UnityEngine_Object___System_String_" data-uid="UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object[],System.String)">SetSnapshotTarget(Object[], String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Undo.RecordObject instead&quot;)]
+public static void SetSnapshotTarget(Object[] objectsToUndo, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a>[]</td>
+        <td><span class="parametername">objectsToUndo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Undo_SetTransformParent_" data-uid="UnityEditor.Undo.SetTransformParent*"></a>
+  <h4 id="UnityEditor_Undo_SetTransformParent_UnityEngine_Transform_UnityEngine_Transform_System_String_" data-uid="UnityEditor.Undo.SetTransformParent(UnityEngine.Transform,UnityEngine.Transform,System.String)">SetTransformParent(Transform, Transform, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetTransformParent(Transform transform, Transform newParent, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Transform.html">Transform</a></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Transform.html">Transform</a></td>
+        <td><span class="parametername">newParent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Undo.md&amp;value=---%0Auid%3A%20UnityEditor.Undo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Undo/Undo.bindings.cs/#L35" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

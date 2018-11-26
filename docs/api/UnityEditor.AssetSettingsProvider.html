@@ -1,0 +1,641 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AssetSettingsProvider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AssetSettingsProvider
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.AssetSettingsProvider">
+  
+  
+  <h1 id="UnityEditor_AssetSettingsProvider" data-uid="UnityEditor.AssetSettingsProvider" class="text-break">Class AssetSettingsProvider
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEditor.SettingsProvider.html">SettingsProvider</a></div>
+    <div class="level2"><span class="xref">AssetSettingsProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_label">SettingsProvider.label</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_settingsPath">SettingsProvider.settingsPath</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_scope">SettingsProvider.scope</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_scopes">SettingsProvider.scopes</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_keywords">SettingsProvider.keywords</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_guiHandler">SettingsProvider.guiHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_titleBarGuiHandler">SettingsProvider.titleBarGuiHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_footerBarGuiHandler">SettingsProvider.footerBarGuiHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_activateHandler">SettingsProvider.activateHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_deactivateHandler">SettingsProvider.deactivateHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_hasSearchInterestHandler">SettingsProvider.hasSearchInterestHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_HasSearchInterest_System_String_">SettingsProvider.HasSearchInterest(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_Repaint">SettingsProvider.Repaint()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_PopulateSearchKeywordsFromGUIContentProperties__1">SettingsProvider.PopulateSearchKeywordsFromGUIContentProperties&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_GetSearchKeywordsFromGUIContentProperties__1">SettingsProvider.GetSearchKeywordsFromGUIContentProperties&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_GetSearchKeywordsFromSerializedObject_UnityEditor_SerializedObject_">SettingsProvider.GetSearchKeywordsFromSerializedObject(SerializedObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_GetSearchKeywordsFromPath_System_String_">SettingsProvider.GetSearchKeywordsFromPath(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_AssetSettingsProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AssetSettingsProvider : SettingsProvider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider__ctor_System_String_System_Func_UnityEditor_Editor__System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.%23ctor(System.String%2CSystem.Func%7BUnityEditor.Editor%7D%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L27">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider__ctor_" data-uid="UnityEditor.AssetSettingsProvider.#ctor*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider__ctor_System_String_System_Func_UnityEditor_Editor__System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.AssetSettingsProvider.#ctor(System.String,System.Func{UnityEditor.Editor},System.Collections.Generic.IEnumerable{System.String})">AssetSettingsProvider(String, Func&lt;Editor&gt;, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetSettingsProvider(string settingsWindowPath, Func&lt;Editor&gt; editorCreator, IEnumerable&lt;string&gt; keywords = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">settingsWindowPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="UnityEditor.Editor.html">Editor</a>&gt;</td>
+        <td><span class="parametername">editorCreator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider__ctor_System_String_System_Func_UnityEngine_Object__.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.%23ctor(System.String%2CSystem.Func%7BUnityEngine.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L33">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider__ctor_" data-uid="UnityEditor.AssetSettingsProvider.#ctor*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider__ctor_System_String_System_Func_UnityEngine_Object__" data-uid="UnityEditor.AssetSettingsProvider.#ctor(System.String,System.Func{UnityEngine.Object})">AssetSettingsProvider(String, Func&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetSettingsProvider(string settingsWindowPath, Func&lt;Object&gt; settingsGetter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">settingsWindowPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="UnityEngine.Object.html">Object</a>&gt;</td>
+        <td><span class="parametername">settingsGetter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_settingsEditor.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.settingsEditor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L25">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_settingsEditor_" data-uid="UnityEditor.AssetSettingsProvider.settingsEditor*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_settingsEditor" data-uid="UnityEditor.AssetSettingsProvider.settingsEditor">settingsEditor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Editor settingsEditor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Editor.html">Editor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_CreateProviderFromAssetPath_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.CreateProviderFromAssetPath(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L38">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_CreateProviderFromAssetPath_" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromAssetPath*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_CreateProviderFromAssetPath_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromAssetPath(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">CreateProviderFromAssetPath(String, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AssetSettingsProvider CreateProviderFromAssetPath(string settingsWindowPath, string assetPath, IEnumerable&lt;string&gt; keywords = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">settingsWindowPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">assetPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.AssetSettingsProvider.html">AssetSettingsProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_CreateProviderFromObject_System_String_UnityEngine_Object_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.CreateProviderFromObject(System.String%2CUnityEngine.Object%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L51">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_CreateProviderFromObject_" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromObject*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_CreateProviderFromObject_System_String_UnityEngine_Object_System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromObject(System.String,UnityEngine.Object,System.Collections.Generic.IEnumerable{System.String})">CreateProviderFromObject(String, Object, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AssetSettingsProvider CreateProviderFromObject(string settingsWindowPath, Object settingsObj, IEnumerable&lt;string&gt; keywords = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">settingsWindowPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">settingsObj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.AssetSettingsProvider.html">AssetSettingsProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_CreateProviderFromResourcePath_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.CreateProviderFromResourcePath(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L56">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_CreateProviderFromResourcePath_" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromResourcePath*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_CreateProviderFromResourcePath_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.AssetSettingsProvider.CreateProviderFromResourcePath(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">CreateProviderFromResourcePath(String, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AssetSettingsProvider CreateProviderFromResourcePath(string settingsWindowPath, string resourcePath, IEnumerable&lt;string&gt; keywords = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">settingsWindowPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">resourcePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">keywords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.AssetSettingsProvider.html">AssetSettingsProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_OnActivate_System_String_UnityEngine_Experimental_UIElements_VisualElement_.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.OnActivate(System.String%2CUnityEngine.Experimental.UIElements.VisualElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L69">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_OnActivate_" data-uid="UnityEditor.AssetSettingsProvider.OnActivate*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_OnActivate_System_String_UnityEngine_Experimental_UIElements_VisualElement_" data-uid="UnityEditor.AssetSettingsProvider.OnActivate(System.String,UnityEngine.Experimental.UIElements.VisualElement)">OnActivate(String, VisualElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnActivate(string searchContext, VisualElement rootElement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">searchContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">rootElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_OnActivate_System_String_UnityEngine_Experimental_UIElements_VisualElement_">SettingsProvider.OnActivate(String, VisualElement)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_OnDeactivate.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.OnDeactivate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L75">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_OnDeactivate_" data-uid="UnityEditor.AssetSettingsProvider.OnDeactivate*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_OnDeactivate" data-uid="UnityEditor.AssetSettingsProvider.OnDeactivate">OnDeactivate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDeactivate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_OnDeactivate">SettingsProvider.OnDeactivate()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_OnFooterBarGUI.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.OnFooterBarGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L131">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_OnFooterBarGUI_" data-uid="UnityEditor.AssetSettingsProvider.OnFooterBarGUI*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_OnFooterBarGUI" data-uid="UnityEditor.AssetSettingsProvider.OnFooterBarGUI">OnFooterBarGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnFooterBarGUI()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_OnFooterBarGUI">SettingsProvider.OnFooterBarGUI()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_OnGUI_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.OnGUI(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L87">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_OnGUI_" data-uid="UnityEditor.AssetSettingsProvider.OnGUI*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_OnGUI_System_String_" data-uid="UnityEditor.AssetSettingsProvider.OnGUI(System.String)">OnGUI(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnGUI(string searchContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">searchContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_OnGUI_System_String_">SettingsProvider.OnGUI(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider_OnTitleBarGUI.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider.OnTitleBarGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L110">View Source</a>
+  </span>
+  <a id="UnityEditor_AssetSettingsProvider_OnTitleBarGUI_" data-uid="UnityEditor.AssetSettingsProvider.OnTitleBarGUI*"></a>
+  <h4 id="UnityEditor_AssetSettingsProvider_OnTitleBarGUI" data-uid="UnityEditor.AssetSettingsProvider.OnTitleBarGUI">OnTitleBarGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnTitleBarGUI()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.SettingsProvider.html#UnityEditor_SettingsProvider_OnTitleBarGUI">SettingsProvider.OnTitleBarGUI()</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_AssetSettingsProvider.md&amp;value=---%0Auid%3A%20UnityEditor.AssetSettingsProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Settings/Providers/AssetSettingsProvider.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

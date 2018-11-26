@@ -1,0 +1,988 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Cubemap
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Cubemap
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEngine.Cubemap">
+  
+  
+  <h1 id="UnityEngine_Cubemap" data-uid="UnityEngine.Cubemap" class="text-break">Class Cubemap
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="UnityEngine.Texture.html">Texture</a></div>
+    <div class="level3"><span class="xref">Cubemap</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_masterTextureLimit">Texture.masterTextureLimit</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_anisotropicFiltering">Texture.anisotropicFiltering</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_SetGlobalAnisotropicFilteringLimits_System_Int32_System_Int32_">Texture.SetGlobalAnisotropicFilteringLimits(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_width">Texture.width</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_height">Texture.height</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_dimension">Texture.dimension</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_wrapMode">Texture.wrapMode</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_wrapModeU">Texture.wrapModeU</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_wrapModeV">Texture.wrapModeV</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_wrapModeW">Texture.wrapModeW</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_filterMode">Texture.filterMode</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_anisoLevel">Texture.anisoLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_mipMapBias">Texture.mipMapBias</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_texelSize">Texture.texelSize</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_GetNativeTexturePtr">Texture.GetNativeTexturePtr()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_GetNativeTextureID">Texture.GetNativeTextureID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_updateCount">Texture.updateCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_IncrementUpdateCount">Texture.IncrementUpdateCount()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_imageContentsHash">Texture.imageContentsHash</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_totalTextureMemory">Texture.totalTextureMemory</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_desiredTextureMemory">Texture.desiredTextureMemory</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_targetTextureMemory">Texture.targetTextureMemory</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_currentTextureMemory">Texture.currentTextureMemory</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_nonStreamingTextureMemory">Texture.nonStreamingTextureMemory</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingMipmapUploadCount">Texture.streamingMipmapUploadCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingRendererCount">Texture.streamingRendererCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingTextureCount">Texture.streamingTextureCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_nonStreamingTextureCount">Texture.nonStreamingTextureCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingTexturePendingLoadCount">Texture.streamingTexturePendingLoadCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingTextureLoadingCount">Texture.streamingTextureLoadingCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_SetStreamingTextureMaterialDebugProperties">Texture.SetStreamingTextureMaterialDebugProperties()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingTextureForceLoadAll">Texture.streamingTextureForceLoadAll</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_streamingTextureDiscardUnusedMips">Texture.streamingTextureDiscardUnusedMips</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetInstanceID">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_name">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_System_Boolean_">Object.Instantiate(Object, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_System_Boolean_">Object.Instantiate&lt;T&gt;(T, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_System_Single_">Object.Destroy(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_System_Boolean_">Object.DestroyImmediate(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType_System_Type_">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DontDestroyOnLoad_UnityEngine_Object_">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_hideFlags">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_System_Single_">Object.DestroyObject(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_">Object.DestroyObject(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindSceneObjectsOfType_System_Type_">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeIncludingAssets_System_Type_">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType__1">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType__1">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeAll_System_Type_">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType_System_Type_">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEngine.html">UnityEngine</a></h6>
+  <h6><strong>Assembly</strong>: UnityEngine.dll</h6>
+  <h5 id="UnityEngine_Cubemap_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Cubemap : Texture</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap__ctor_System_Int32_UnityEngine_Experimental_Rendering_GraphicsFormat_UnityEngine_Experimental_Rendering_TextureCreationFlags_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.%23ctor(System.Int32%2CUnityEngine.Experimental.Rendering.GraphicsFormat%2CUnityEngine.Experimental.Rendering.TextureCreationFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L615">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap__ctor_" data-uid="UnityEngine.Cubemap.#ctor*"></a>
+  <h4 id="UnityEngine_Cubemap__ctor_System_Int32_UnityEngine_Experimental_Rendering_GraphicsFormat_UnityEngine_Experimental_Rendering_TextureCreationFlags_" data-uid="UnityEngine.Cubemap.#ctor(System.Int32,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags)">Cubemap(Int32, GraphicsFormat, TextureCreationFlags)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cubemap(int width, GraphicsFormat format, TextureCreationFlags flags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.Rendering.GraphicsFormat.html">GraphicsFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.Rendering.TextureCreationFlags.html">TextureCreationFlags</a></td>
+        <td><span class="parametername">flags</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap__ctor_System_Int32_UnityEngine_TextureFormat_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.%23ctor(System.Int32%2CUnityEngine.TextureFormat%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L636">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap__ctor_" data-uid="UnityEngine.Cubemap.#ctor*"></a>
+  <h4 id="UnityEngine_Cubemap__ctor_System_Int32_UnityEngine_TextureFormat_System_Boolean_" data-uid="UnityEngine.Cubemap.#ctor(System.Int32,UnityEngine.TextureFormat,System.Boolean)">Cubemap(Int32, TextureFormat, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cubemap(int width, TextureFormat textureFormat, bool mipChain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">textureFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">mipChain</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UnityEngine_Cubemap_format_" data-uid="UnityEngine.Cubemap.format*"></a>
+  <h4 id="UnityEngine_Cubemap_format" data-uid="UnityEngine.Cubemap.format">format</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureFormat format { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureFormat.html">TextureFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_Cubemap_isReadable_" data-uid="UnityEngine.Cubemap.isReadable*"></a>
+  <h4 id="UnityEngine_Cubemap_isReadable" data-uid="UnityEngine.Cubemap.isReadable">isReadable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool isReadable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEngine.Texture.html#UnityEngine_Texture_isReadable">Texture.isReadable</a></div>
+  
+  
+  <a id="UnityEngine_Cubemap_mipmapCount_" data-uid="UnityEngine.Cubemap.mipmapCount*"></a>
+  <h4 id="UnityEngine_Cubemap_mipmapCount" data-uid="UnityEngine.Cubemap.mipmapCount">mipmapCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mipmapCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_Apply.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.Apply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L666">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_Apply_" data-uid="UnityEngine.Cubemap.Apply*"></a>
+  <h4 id="UnityEngine_Cubemap_Apply" data-uid="UnityEngine.Cubemap.Apply">Apply()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Apply()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_Apply_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.Apply(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L665">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_Apply_" data-uid="UnityEngine.Cubemap.Apply*"></a>
+  <h4 id="UnityEngine_Cubemap_Apply_System_Boolean_" data-uid="UnityEngine.Cubemap.Apply(System.Boolean)">Apply(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Apply(bool updateMipmaps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">updateMipmaps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_Apply_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.Apply(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L660">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_Apply_" data-uid="UnityEngine.Cubemap.Apply*"></a>
+  <h4 id="UnityEngine_Cubemap_Apply_System_Boolean_System_Boolean_" data-uid="UnityEngine.Cubemap.Apply(System.Boolean,System.Boolean)">Apply(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Apply([DefaultValue(&quot;true&quot;)] bool updateMipmaps, [DefaultValue(&quot;false&quot;)] bool makeNoLongerReadable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">updateMipmaps</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">makeNoLongerReadable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_CreateExternalTexture_System_Int32_UnityEngine_TextureFormat_System_Boolean_System_IntPtr_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.CreateExternalTexture(System.Int32%2CUnityEngine.TextureFormat%2CSystem.Boolean%2CSystem.IntPtr)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L641">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_CreateExternalTexture_" data-uid="UnityEngine.Cubemap.CreateExternalTexture*"></a>
+  <h4 id="UnityEngine_Cubemap_CreateExternalTexture_System_Int32_UnityEngine_TextureFormat_System_Boolean_System_IntPtr_" data-uid="UnityEngine.Cubemap.CreateExternalTexture(System.Int32,UnityEngine.TextureFormat,System.Boolean,System.IntPtr)">CreateExternalTexture(Int32, TextureFormat, Boolean, IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Cubemap CreateExternalTexture(int width, TextureFormat format, bool mipmap, IntPtr nativeTex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">mipmap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+        <td><span class="parametername">nativeTex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Cubemap.html">Cubemap</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_GetPixel_UnityEngine_CubemapFace_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.GetPixel(UnityEngine.CubemapFace%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L654">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_GetPixel_" data-uid="UnityEngine.Cubemap.GetPixel*"></a>
+  <h4 id="UnityEngine_Cubemap_GetPixel_UnityEngine_CubemapFace_System_Int32_System_Int32_" data-uid="UnityEngine.Cubemap.GetPixel(UnityEngine.CubemapFace,System.Int32,System.Int32)">GetPixel(CubemapFace, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color GetPixel(CubemapFace face, int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_GetPixels_UnityEngine_CubemapFace_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.GetPixels(UnityEngine.CubemapFace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.bindings.cs/#L300">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_GetPixels_" data-uid="UnityEngine.Cubemap.GetPixels*"></a>
+  <h4 id="UnityEngine_Cubemap_GetPixels_UnityEngine_CubemapFace_" data-uid="UnityEngine.Cubemap.GetPixels(UnityEngine.CubemapFace)">GetPixels(CubemapFace)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color[] GetPixels(CubemapFace face)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_Cubemap_GetPixels_" data-uid="UnityEngine.Cubemap.GetPixels*"></a>
+  <h4 id="UnityEngine_Cubemap_GetPixels_UnityEngine_CubemapFace_System_Int32_" data-uid="UnityEngine.Cubemap.GetPixels(UnityEngine.CubemapFace,System.Int32)">GetPixels(CubemapFace, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color[] GetPixels(CubemapFace face, int miplevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">miplevel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_SetPixel_UnityEngine_CubemapFace_System_Int32_System_Int32_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.SetPixel(UnityEngine.CubemapFace%2CSystem.Int32%2CSystem.Int32%2CUnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L648">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_SetPixel_" data-uid="UnityEngine.Cubemap.SetPixel*"></a>
+  <h4 id="UnityEngine_Cubemap_SetPixel_UnityEngine_CubemapFace_System_Int32_System_Int32_UnityEngine_Color_" data-uid="UnityEngine.Cubemap.SetPixel(UnityEngine.CubemapFace,System.Int32,System.Int32,UnityEngine.Color)">SetPixel(CubemapFace, Int32, Int32, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPixel(CubemapFace face, int x, int y, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_SetPixels_UnityEngine_Color___UnityEngine_CubemapFace_.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.SetPixels(UnityEngine.Color%5B%5D%2CUnityEngine.CubemapFace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.bindings.cs/#L308">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_SetPixels_" data-uid="UnityEngine.Cubemap.SetPixels*"></a>
+  <h4 id="UnityEngine_Cubemap_SetPixels_UnityEngine_Color___UnityEngine_CubemapFace_" data-uid="UnityEngine.Cubemap.SetPixels(UnityEngine.Color[],UnityEngine.CubemapFace)">SetPixels(Color[], CubemapFace)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPixels(Color[] colors, CubemapFace face)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a>[]</td>
+        <td><span class="parametername">colors</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEngine_Cubemap_SetPixels_" data-uid="UnityEngine.Cubemap.SetPixels*"></a>
+  <h4 id="UnityEngine_Cubemap_SetPixels_UnityEngine_Color___UnityEngine_CubemapFace_System_Int32_" data-uid="UnityEngine.Cubemap.SetPixels(UnityEngine.Color[],UnityEngine.CubemapFace,System.Int32)">SetPixels(Color[], CubemapFace, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPixels(Color[] colors, CubemapFace face, int miplevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a>[]</td>
+        <td><span class="parametername">colors</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.CubemapFace.html">CubemapFace</a></td>
+        <td><span class="parametername">face</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">miplevel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap_SmoothEdges.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap.SmoothEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.bindings.cs/#L295">View Source</a>
+  </span>
+  <a id="UnityEngine_Cubemap_SmoothEdges_" data-uid="UnityEngine.Cubemap.SmoothEdges*"></a>
+  <h4 id="UnityEngine_Cubemap_SmoothEdges" data-uid="UnityEngine.Cubemap.SmoothEdges">SmoothEdges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SmoothEdges()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEngine_Cubemap_SmoothEdges_" data-uid="UnityEngine.Cubemap.SmoothEdges*"></a>
+  <h4 id="UnityEngine_Cubemap_SmoothEdges_System_Int32_" data-uid="UnityEngine.Cubemap.SmoothEdges(System.Int32)">SmoothEdges(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SmoothEdges([DefaultValue(&quot;1&quot;)] int smoothRegionWidthInPixels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">smoothRegionWidthInPixels</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Cubemap.md&amp;value=---%0Auid%3A%20UnityEngine.Cubemap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/Texture.cs/#L613" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

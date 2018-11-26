@@ -1,0 +1,789 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GridBrushEditor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GridBrushEditor
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.GridBrushEditor">
+  
+  
+  <h1 id="UnityEditor_GridBrushEditor" data-uid="UnityEditor.GridBrushEditor" class="text-break">Class GridBrushEditor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="UnityEngine.ScriptableObject.html">ScriptableObject</a></div>
+    <div class="level3"><a class="xref" href="UnityEditor.Editor.html">Editor</a></div>
+    <div class="level4"><a class="xref" href="UnityEditor.GridBrushEditorBase.html">GridBrushEditorBase</a></div>
+    <div class="level5"><span class="xref">GridBrushEditor</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnPaintInspectorGUI">GridBrushEditorBase.OnPaintInspectorGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnMouseEnter">GridBrushEditorBase.OnMouseEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnToolActivated_UnityEngine_GridBrushBase_Tool_">GridBrushEditorBase.OnToolActivated(GridBrushBase.Tool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_target">Editor.target</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_targets">Editor.targets</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_serializedObject">Editor.serializedObject</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditorWithContext_UnityEngine_Object___UnityEngine_Object_">Editor.CreateEditorWithContext(Object[], Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateCachedEditorWithContext_UnityEngine_Object_UnityEngine_Object_System_Type_UnityEditor_Editor__">Editor.CreateCachedEditorWithContext(Object, Object, Type, Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateCachedEditorWithContext_UnityEngine_Object___UnityEngine_Object_System_Type_UnityEditor_Editor__">Editor.CreateCachedEditorWithContext(Object[], Object, Type, Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateCachedEditor_UnityEngine_Object_System_Type_UnityEditor_Editor__">Editor.CreateCachedEditor(Object, Type, Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateCachedEditor_UnityEngine_Object___System_Type_UnityEditor_Editor__">Editor.CreateCachedEditor(Object[], Type, Editor)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditor_UnityEngine_Object_">Editor.CreateEditor(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditor_UnityEngine_Object_System_Type_">Editor.CreateEditor(Object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditor_UnityEngine_Object___">Editor.CreateEditor(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditor_UnityEngine_Object___System_Type_">Editor.CreateEditor(Object[], Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_DrawPropertiesExcluding_UnityEditor_SerializedObject_System_String___">Editor.DrawPropertiesExcluding(SerializedObject, String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_DrawDefaultInspector">Editor.DrawDefaultInspector()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_Repaint">Editor.Repaint()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_OnInspectorGUI">Editor.OnInspectorGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_RequiresConstantRepaint">Editor.RequiresConstantRepaint()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_finishedDefaultHeaderGUI">Editor.finishedDefaultHeaderGUI</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_DrawHeader">Editor.DrawHeader()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_OnHeaderGUI">Editor.OnHeaderGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_ShouldHideOpenButton">Editor.ShouldHideOpenButton()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_HasPreviewGUI">Editor.HasPreviewGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_GetPreviewTitle">Editor.GetPreviewTitle()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_RenderStaticPreview_System_String_UnityEngine_Object___System_Int32_System_Int32_">Editor.RenderStaticPreview(String, Object[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_OnPreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_">Editor.OnPreviewGUI(Rect, GUIStyle)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_OnInteractivePreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_">Editor.OnInteractivePreviewGUI(Rect, GUIStyle)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_OnPreviewSettings">Editor.OnPreviewSettings()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_GetInfoString">Editor.GetInfoString()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_DrawPreview_UnityEngine_Rect_">Editor.DrawPreview(Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_ReloadPreviewInstances">Editor.ReloadPreviewInstances()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_UseDefaultMargins">Editor.UseDefaultMargins()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_Initialize_UnityEngine_Object___">Editor.Initialize(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_MoveNextTarget">Editor.MoveNextTarget()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_ResetTarget">Editor.ResetTarget()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEditor.Editor.html#UnityEditor_Editor_CreateEditorWithContext_UnityEngine_Object___UnityEngine_Object_System_Type_">Editor.CreateEditorWithContext(Object[], Object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_SetDirty">ScriptableObject.SetDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance_System_String_">ScriptableObject.CreateInstance(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance_System_Type_">ScriptableObject.CreateInstance(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.ScriptableObject.html#UnityEngine_ScriptableObject_CreateInstance__1">ScriptableObject.CreateInstance&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetInstanceID">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_name">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_System_Boolean_">Object.Instantiate(Object, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_System_Boolean_">Object.Instantiate&lt;T&gt;(T, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_System_Single_">Object.Destroy(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_System_Boolean_">Object.DestroyImmediate(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType_System_Type_">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DontDestroyOnLoad_UnityEngine_Object_">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_hideFlags">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_System_Single_">Object.DestroyObject(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_">Object.DestroyObject(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindSceneObjectsOfType_System_Type_">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeIncludingAssets_System_Type_">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType__1">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType__1">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeAll_System_Type_">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType_System_Type_">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_GridBrushEditor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CustomEditor(typeof(GridBrush))]
+public class GridBrushEditor : GridBrushEditorBase, IPreviewable, IToolModeOwner</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_brush.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.brush%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L36">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_brush_" data-uid="UnityEditor.GridBrushEditor.brush*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_brush" data-uid="UnityEditor.GridBrushEditor.brush">brush</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GridBrush brush { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.GridBrush.html">GridBrush</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_validTargets.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.validTargets%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L234">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_validTargets_" data-uid="UnityEditor.GridBrushEditor.validTargets*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_validTargets" data-uid="UnityEditor.GridBrushEditor.validTargets">validTargets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GameObject[] validTargets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_validTargets">GridBrushEditorBase.validTargets</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_BoxFillPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_BoundsInt_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.BoxFillPreview(UnityEngine.GridLayout%2CUnityEngine.GameObject%2CUnityEngine.BoundsInt)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L270">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_BoxFillPreview_" data-uid="UnityEditor.GridBrushEditor.BoxFillPreview*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_BoxFillPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_BoundsInt_" data-uid="UnityEditor.GridBrushEditor.BoxFillPreview(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt)">BoxFillPreview(GridLayout, GameObject, BoundsInt)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void BoxFillPreview(GridLayout gridLayout, GameObject brushTarget, BoundsInt position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridLayout.html">GridLayout</a></td>
+        <td><span class="parametername">gridLayout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">brushTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.BoundsInt.html">BoundsInt</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_ClearPreview.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.ClearPreview%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L346">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_ClearPreview_" data-uid="UnityEditor.GridBrushEditor.ClearPreview*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_ClearPreview" data-uid="UnityEditor.GridBrushEditor.ClearPreview">ClearPreview()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ClearPreview()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_FloodFillPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_Vector3Int_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.FloodFillPreview(UnityEngine.GridLayout%2CUnityEngine.GameObject%2CUnityEngine.Vector3Int)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L295">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_FloodFillPreview_" data-uid="UnityEditor.GridBrushEditor.FloodFillPreview*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_FloodFillPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_Vector3Int_" data-uid="UnityEditor.GridBrushEditor.FloodFillPreview(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int)">FloodFillPreview(GridLayout, GameObject, Vector3Int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void FloodFillPreview(GridLayout gridLayout, GameObject brushTarget, Vector3Int position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridLayout.html">GridLayout</a></td>
+        <td><span class="parametername">gridLayout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">brushTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3Int.html">Vector3Int</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnDisable.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L58">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnDisable_" data-uid="UnityEditor.GridBrushEditor.OnDisable*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnDisable" data-uid="UnityEditor.GridBrushEditor.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnEnable.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L53">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnEnable_" data-uid="UnityEditor.GridBrushEditor.OnEnable*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnEnable" data-uid="UnityEditor.GridBrushEditor.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnMouseLeave.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnMouseLeave%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L216">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnMouseLeave_" data-uid="UnityEditor.GridBrushEditor.OnMouseLeave*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnMouseLeave" data-uid="UnityEditor.GridBrushEditor.OnMouseLeave">OnMouseLeave()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnMouseLeave()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnMouseLeave">GridBrushEditorBase.OnMouseLeave()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnPaintSceneGUI_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_BoundsInt_UnityEngine_GridBrushBase_Tool_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnPaintSceneGUI(UnityEngine.GridLayout%2CUnityEngine.GameObject%2CUnityEngine.BoundsInt%2CUnityEngine.GridBrushBase.Tool%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L69">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnPaintSceneGUI_" data-uid="UnityEditor.GridBrushEditor.OnPaintSceneGUI*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnPaintSceneGUI_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_BoundsInt_UnityEngine_GridBrushBase_Tool_System_Boolean_" data-uid="UnityEditor.GridBrushEditor.OnPaintSceneGUI(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt,UnityEngine.GridBrushBase.Tool,System.Boolean)">OnPaintSceneGUI(GridLayout, GameObject, BoundsInt, GridBrushBase.Tool, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnPaintSceneGUI(GridLayout gridLayout, GameObject brushTarget, BoundsInt position, GridBrushBase.Tool tool, bool executing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridLayout.html">GridLayout</a></td>
+        <td><span class="parametername">gridLayout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">brushTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.BoundsInt.html">BoundsInt</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridBrushBase.Tool.html">GridBrushBase.Tool</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">executing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnPaintSceneGUI_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_BoundsInt_UnityEngine_GridBrushBase_Tool_System_Boolean_">GridBrushEditorBase.OnPaintSceneGUI(GridLayout, GameObject, BoundsInt, GridBrushBase.Tool, Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnSelectionInspectorGUI.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnSelectionInspectorGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L120">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnSelectionInspectorGUI_" data-uid="UnityEditor.GridBrushEditor.OnSelectionInspectorGUI*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnSelectionInspectorGUI" data-uid="UnityEditor.GridBrushEditor.OnSelectionInspectorGUI">OnSelectionInspectorGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnSelectionInspectorGUI()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnSelectionInspectorGUI">GridBrushEditorBase.OnSelectionInspectorGUI()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_OnToolDeactivated_UnityEngine_GridBrushBase_Tool_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.OnToolDeactivated(UnityEngine.GridBrushBase.Tool)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L221">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_OnToolDeactivated_" data-uid="UnityEditor.GridBrushEditor.OnToolDeactivated*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_OnToolDeactivated_UnityEngine_GridBrushBase_Tool_" data-uid="UnityEditor.GridBrushEditor.OnToolDeactivated(UnityEngine.GridBrushBase.Tool)">OnToolDeactivated(GridBrushBase.Tool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnToolDeactivated(GridBrushBase.Tool tool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridBrushBase.Tool.html">GridBrushBase.Tool</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_OnToolDeactivated_UnityEngine_GridBrushBase_Tool_">GridBrushEditorBase.OnToolDeactivated(GridBrushBase.Tool)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_PaintPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_Vector3Int_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.PaintPreview(UnityEngine.GridLayout%2CUnityEngine.GameObject%2CUnityEngine.Vector3Int)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L244">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_PaintPreview_" data-uid="UnityEditor.GridBrushEditor.PaintPreview*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_PaintPreview_UnityEngine_GridLayout_UnityEngine_GameObject_UnityEngine_Vector3Int_" data-uid="UnityEditor.GridBrushEditor.PaintPreview(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int)">PaintPreview(GridLayout, GameObject, Vector3Int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PaintPreview(GridLayout gridLayout, GameObject brushTarget, Vector3Int position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridLayout.html">GridLayout</a></td>
+        <td><span class="parametername">gridLayout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">brushTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3Int.html">Vector3Int</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor_RegisterUndo_UnityEngine_GameObject_UnityEngine_GridBrushBase_Tool_.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor.RegisterUndo(UnityEngine.GameObject%2CUnityEngine.GridBrushBase.Tool)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L226">View Source</a>
+  </span>
+  <a id="UnityEditor_GridBrushEditor_RegisterUndo_" data-uid="UnityEditor.GridBrushEditor.RegisterUndo*"></a>
+  <h4 id="UnityEditor_GridBrushEditor_RegisterUndo_UnityEngine_GameObject_UnityEngine_GridBrushBase_Tool_" data-uid="UnityEditor.GridBrushEditor.RegisterUndo(UnityEngine.GameObject,UnityEngine.GridBrushBase.Tool)">RegisterUndo(GameObject, GridBrushBase.Tool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RegisterUndo(GameObject brushTarget, GridBrushBase.Tool tool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GameObject.html">GameObject</a></td>
+        <td><span class="parametername">brushTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GridBrushBase.Tool.html">GridBrushBase.Tool</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityEditor.GridBrushEditorBase.html#UnityEditor_GridBrushEditorBase_RegisterUndo_UnityEngine_GameObject_UnityEngine_GridBrushBase_Tool_">GridBrushEditorBase.RegisterUndo(GameObject, GridBrushBase.Tool)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_GridBrushEditor.md&amp;value=---%0Auid%3A%20UnityEditor.GridBrushEditor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/TilemapEditor/Editor/Managed/Grid/GridBrushEditor.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

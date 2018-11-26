@@ -1,0 +1,3127 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EditorGUIUtility
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EditorGUIUtility
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.EditorGUIUtility">
+  
+  
+  <h1 id="UnityEditor_EditorGUIUtility" data-uid="UnityEditor.EditorGUIUtility" class="text-break">Class EditorGUIUtility
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.GUIUtility.html">GUIUtility</a></div>
+    <div class="level2"><span class="xref">EditorGUIUtility</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_hasModalWindow">GUIUtility.hasModalWindow</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_System_Int32_UnityEngine_FocusType_UnityEngine_Rect_">GUIUtility.GetControlID(Int32, FocusType, Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_AlignRectToDevice_UnityEngine_Rect_System_Int32__System_Int32__">GUIUtility.AlignRectToDevice(Rect, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_UnityEngine_FocusType_">GUIUtility.GetControlID(FocusType)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_UnityEngine_GUIContent_UnityEngine_FocusType_">GUIUtility.GetControlID(GUIContent, FocusType)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_UnityEngine_FocusType_UnityEngine_Rect_">GUIUtility.GetControlID(FocusType, Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_UnityEngine_GUIContent_UnityEngine_FocusType_UnityEngine_Rect_">GUIUtility.GetControlID(GUIContent, FocusType, Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetControlID_System_Int32_UnityEngine_FocusType_">GUIUtility.GetControlID(Int32, FocusType)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GetStateObject_System_Type_System_Int32_">GUIUtility.GetStateObject(Type, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_QueryStateObject_System_Type_System_Int32_">GUIUtility.QueryStateObject(Type, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_hotControl">GUIUtility.hotControl</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_keyboardControl">GUIUtility.keyboardControl</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_ExitGUI">GUIUtility.ExitGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_GUIToScreenPoint_UnityEngine_Vector2_">GUIUtility.GUIToScreenPoint(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_ScreenToGUIPoint_UnityEngine_Vector2_">GUIUtility.ScreenToGUIPoint(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_ScreenToGUIRect_UnityEngine_Rect_">GUIUtility.ScreenToGUIRect(Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_RotateAroundPivot_System_Single_UnityEngine_Vector2_">GUIUtility.RotateAroundPivot(Single, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_ScaleAroundPivot_UnityEngine_Vector2_UnityEngine_Vector2_">GUIUtility.ScaleAroundPivot(Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.GUIUtility.html#UnityEngine_GUIUtility_AlignRectToDevice_UnityEngine_Rect_">GUIUtility.AlignRectToDevice(Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.html">UnityEditor</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_EditorGUIUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class EditorGUIUtility : GUIUtility</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_native.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.native%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1135">View Source</a>
+  </span>
+  <h4 id="UnityEditor_EditorGUIUtility_native" data-uid="UnityEditor.EditorGUIUtility.native">native</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This field is no longer used by any builtin controls. If passing this field to GetControlID, explicitly use the FocusType enum instead.&quot;, false)]
+public static FocusType native</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.FocusType.html">FocusType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_currentViewWidth.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.currentViewWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1085">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_currentViewWidth_" data-uid="UnityEditor.EditorGUIUtility.currentViewWidth*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_currentViewWidth" data-uid="UnityEditor.EditorGUIUtility.currentViewWidth">currentViewWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float currentViewWidth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_editingTextField.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.editingTextField%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1017">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_editingTextField_" data-uid="UnityEditor.EditorGUIUtility.editingTextField*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_editingTextField" data-uid="UnityEditor.EditorGUIUtility.editingTextField">editingTextField</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool editingTextField { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_fieldWidth.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.fieldWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1102">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_fieldWidth_" data-uid="UnityEditor.EditorGUIUtility.fieldWidth*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_fieldWidth" data-uid="UnityEditor.EditorGUIUtility.fieldWidth">fieldWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float fieldWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_hierarchyMode.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.hierarchyMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1032">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_hierarchyMode_" data-uid="UnityEditor.EditorGUIUtility.hierarchyMode*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_hierarchyMode" data-uid="UnityEditor.EditorGUIUtility.hierarchyMode">hierarchyMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hierarchyMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_isProSkin.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.isProSkin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L750">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_isProSkin_" data-uid="UnityEditor.EditorGUIUtility.isProSkin*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_isProSkin" data-uid="UnityEditor.EditorGUIUtility.isProSkin">isProSkin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isProSkin { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_labelWidth.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.labelWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1087">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_labelWidth_" data-uid="UnityEditor.EditorGUIUtility.labelWidth*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_labelWidth" data-uid="UnityEditor.EditorGUIUtility.labelWidth">labelWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float labelWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_pixelsPerPoint.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.pixelsPerPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L96">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_pixelsPerPoint_" data-uid="UnityEditor.EditorGUIUtility.pixelsPerPoint*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_pixelsPerPoint" data-uid="UnityEditor.EditorGUIUtility.pixelsPerPoint">pixelsPerPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float pixelsPerPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_singleLineHeight.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.singleLineHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L521">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_singleLineHeight_" data-uid="UnityEditor.EditorGUIUtility.singleLineHeight*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_singleLineHeight" data-uid="UnityEditor.EditorGUIUtility.singleLineHeight">singleLineHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float singleLineHeight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_standardVerticalSpacing.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.standardVerticalSpacing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L522">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_standardVerticalSpacing_" data-uid="UnityEditor.EditorGUIUtility.standardVerticalSpacing*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_standardVerticalSpacing" data-uid="UnityEditor.EditorGUIUtility.standardVerticalSpacing">standardVerticalSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float standardVerticalSpacing { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_systemCopyBuffer_" data-uid="UnityEditor.EditorGUIUtility.systemCopyBuffer*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_systemCopyBuffer" data-uid="UnityEditor.EditorGUIUtility.systemCopyBuffer">systemCopyBuffer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string systemCopyBuffer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_textFieldHasSelection.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.textFieldHasSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1023">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_textFieldHasSelection_" data-uid="UnityEditor.EditorGUIUtility.textFieldHasSelection*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_textFieldHasSelection" data-uid="UnityEditor.EditorGUIUtility.textFieldHasSelection">textFieldHasSelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool textFieldHasSelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_whiteTexture_" data-uid="UnityEditor.EditorGUIUtility.whiteTexture*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_whiteTexture" data-uid="UnityEditor.EditorGUIUtility.whiteTexture">whiteTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D whiteTexture { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture2D.html">Texture2D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_wideMode.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.wideMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1035">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_wideMode_" data-uid="UnityEditor.EditorGUIUtility.wideMode*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_wideMode" data-uid="UnityEditor.EditorGUIUtility.wideMode">wideMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool wideMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_AddCursorRect_UnityEngine_Rect_UnityEditor_MouseCursor_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect%2CUnityEditor.MouseCursor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1379">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_AddCursorRect_" data-uid="UnityEditor.EditorGUIUtility.AddCursorRect*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_AddCursorRect_UnityEngine_Rect_UnityEditor_MouseCursor_" data-uid="UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect,UnityEditor.MouseCursor)">AddCursorRect(Rect, MouseCursor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddCursorRect(Rect position, MouseCursor mouse)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.MouseCursor.html">MouseCursor</a></td>
+        <td><span class="parametername">mouse</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_AddCursorRect_UnityEngine_Rect_UnityEditor_MouseCursor_System_Int32_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect%2CUnityEditor.MouseCursor%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1384">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_AddCursorRect_" data-uid="UnityEditor.EditorGUIUtility.AddCursorRect*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_AddCursorRect_UnityEngine_Rect_UnityEditor_MouseCursor_System_Int32_" data-uid="UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect,UnityEditor.MouseCursor,System.Int32)">AddCursorRect(Rect, MouseCursor, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddCursorRect(Rect position, MouseCursor mouse, int controlID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.MouseCursor.html">MouseCursor</a></td>
+        <td><span class="parametername">mouse</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">controlID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_CommandEvent_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.CommandEvent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1160">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_CommandEvent_" data-uid="UnityEditor.EditorGUIUtility.CommandEvent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_CommandEvent_System_String_" data-uid="UnityEditor.EditorGUIUtility.CommandEvent(System.String)">CommandEvent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Event CommandEvent(string commandName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">commandName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Event.html">Event</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawColorSwatch_UnityEngine_Rect_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawColorSwatch(UnityEngine.Rect%2CUnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1170">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawColorSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawColorSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawColorSwatch_UnityEngine_Rect_UnityEngine_Color_" data-uid="UnityEditor.EditorGUIUtility.DrawColorSwatch(UnityEngine.Rect,UnityEngine.Color)">DrawColorSwatch(Rect, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawColorSwatch(Rect position, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect%2CUnityEngine.AnimationCurve%2CUnityEditor.SerializedProperty%2CUnityEngine.Color%2CUnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1263">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color)">DrawCurveSwatch(Rect, AnimationCurve, SerializedProperty, Color, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect%2CUnityEngine.AnimationCurve%2CUnityEditor.SerializedProperty%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1268">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">DrawCurveSwatch(Rect, AnimationCurve, SerializedProperty, Color, Color, Color, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor, Color topFillColor, Color bottomFillColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">topFillColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bottomFillColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect%2CUnityEngine.AnimationCurve%2CUnityEditor.SerializedProperty%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1274">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">DrawCurveSwatch(Rect, AnimationCurve, SerializedProperty, Color, Color, Color, Color, Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor, Color topFillColor, Color bottomFillColor, Rect curveRanges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">topFillColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bottomFillColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">curveRanges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect%2CUnityEngine.AnimationCurve%2CUnityEditor.SerializedProperty%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1279">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawCurveSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">DrawCurveSwatch(Rect, AnimationCurve, SerializedProperty, Color, Color, Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor, Rect curveRanges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">curveRanges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawRegionSwatch_UnityEngine_Rect_UnityEditor_SerializedProperty_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect%2CUnityEditor.SerializedProperty%2CUnityEditor.SerializedProperty%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1285">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawRegionSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawRegionSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawRegionSwatch_UnityEngine_Rect_UnityEditor_SerializedProperty_UnityEditor_SerializedProperty_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">DrawRegionSwatch(Rect, SerializedProperty, SerializedProperty, Color, Color, Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRegionSwatch(Rect position, SerializedProperty property, SerializedProperty property2, Color color, Color bgColor, Rect curveRanges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SerializedProperty.html">SerializedProperty</a></td>
+        <td><span class="parametername">property2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">curveRanges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_DrawRegionSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEngine_AnimationCurve_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect%2CUnityEngine.AnimationCurve%2CUnityEngine.AnimationCurve%2CUnityEngine.Color%2CUnityEngine.Color%2CUnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1291">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_DrawRegionSwatch_" data-uid="UnityEditor.EditorGUIUtility.DrawRegionSwatch*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_DrawRegionSwatch_UnityEngine_Rect_UnityEngine_AnimationCurve_UnityEngine_AnimationCurve_UnityEngine_Color_UnityEngine_Color_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">DrawRegionSwatch(Rect, AnimationCurve, AnimationCurve, Color, Color, Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRegionSwatch(Rect position, AnimationCurve curve, AnimationCurve curve2, Color color, Color bgColor, Rect curveRanges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AnimationCurve.html">AnimationCurve</a></td>
+        <td><span class="parametername">curve2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Color.html">Color</a></td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">curveRanges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_FindTexture_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.FindTexture(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L367">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_FindTexture_" data-uid="UnityEditor.EditorGUIUtility.FindTexture*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_FindTexture_System_String_" data-uid="UnityEditor.EditorGUIUtility.FindTexture(System.String)">FindTexture(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D FindTexture(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture2D.html">Texture2D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_GetBuiltinSkin_UnityEditor_EditorSkin_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.GetBuiltinSkin(UnityEditor.EditorSkin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L881">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_GetBuiltinSkin_" data-uid="UnityEditor.EditorGUIUtility.GetBuiltinSkin*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_GetBuiltinSkin_UnityEditor_EditorSkin_" data-uid="UnityEditor.EditorGUIUtility.GetBuiltinSkin(UnityEditor.EditorSkin)">GetBuiltinSkin(EditorSkin)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GUISkin GetBuiltinSkin(EditorSkin skin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.EditorSkin.html">EditorSkin</a></td>
+        <td><span class="parametername">skin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUISkin.html">GUISkin</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_GetFlowLayoutedRects_UnityEngine_Rect_UnityEngine_GUIStyle_System_Single_System_Single_System_Collections_Generic_List_System_String__.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.GetFlowLayoutedRects(UnityEngine.Rect%2CUnityEngine.GUIStyle%2CSystem.Single%2CSystem.Single%2CSystem.Collections.Generic.List%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L153">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_GetFlowLayoutedRects_" data-uid="UnityEditor.EditorGUIUtility.GetFlowLayoutedRects*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_GetFlowLayoutedRects_UnityEngine_Rect_UnityEngine_GUIStyle_System_Single_System_Single_System_Collections_Generic_List_System_String__" data-uid="UnityEditor.EditorGUIUtility.GetFlowLayoutedRects(UnityEngine.Rect,UnityEngine.GUIStyle,System.Single,System.Single,System.Collections.Generic.List{System.String})">GetFlowLayoutedRects(Rect, GUIStyle, Single, Single, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Rect&gt; GetFlowLayoutedRects(Rect rect, GUIStyle style, float horizontalSpacing, float verticalSpacing, List&lt;string&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">rect</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIStyle.html">GUIStyle</a></td>
+        <td><span class="parametername">style</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">horizontalSpacing</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">verticalSpacing</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="UnityEngine.Rect.html">Rect</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_GetIconSize.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.GetIconSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L830">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_GetIconSize_" data-uid="UnityEditor.EditorGUIUtility.GetIconSize*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_GetIconSize" data-uid="UnityEditor.EditorGUIUtility.GetIconSize">GetIconSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetIconSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_GetObjectPickerControlID.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.GetObjectPickerControlID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1457">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_GetObjectPickerControlID_" data-uid="UnityEditor.EditorGUIUtility.GetObjectPickerControlID*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_GetObjectPickerControlID" data-uid="UnityEditor.EditorGUIUtility.GetObjectPickerControlID">GetObjectPickerControlID()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetObjectPickerControlID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_GetObjectPickerObject.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.GetObjectPickerObject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1452">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_GetObjectPickerObject_" data-uid="UnityEditor.EditorGUIUtility.GetObjectPickerObject*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_GetObjectPickerObject" data-uid="UnityEditor.EditorGUIUtility.GetObjectPickerObject">GetObjectPickerObject()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object GetObjectPickerObject()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_HasObjectThumbnail_System_Type_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.HasObjectThumbnail(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L824">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_HasObjectThumbnail_" data-uid="UnityEditor.EditorGUIUtility.HasObjectThumbnail*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_HasObjectThumbnail_System_Type_" data-uid="UnityEditor.EditorGUIUtility.HasObjectThumbnail(System.Type)">HasObjectThumbnail(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasObjectThumbnail(Type objType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">objType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_IconContent_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.IconContent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L700">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_IconContent_" data-uid="UnityEditor.EditorGUIUtility.IconContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_IconContent_System_String_" data-uid="UnityEditor.EditorGUIUtility.IconContent(System.String)">IconContent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent IconContent(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_IconContent_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.IconContent(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L706">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_IconContent_" data-uid="UnityEditor.EditorGUIUtility.IconContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_IconContent_System_String_System_String_" data-uid="UnityEditor.EditorGUIUtility.IconContent(System.String,System.String)">IconContent(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GUIContent IconContent(string name, [DefaultValue(&quot;null&quot;)] string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_IsDisplayReferencedByCameras_" data-uid="UnityEditor.EditorGUIUtility.IsDisplayReferencedByCameras*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_IsDisplayReferencedByCameras_System_Int32_" data-uid="UnityEditor.EditorGUIUtility.IsDisplayReferencedByCameras(System.Int32)">IsDisplayReferencedByCameras(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDisplayReferencedByCameras(int displayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">displayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_Load_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.Load(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L896">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_Load_" data-uid="UnityEditor.EditorGUIUtility.Load*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_Load_System_String_" data-uid="UnityEditor.EditorGUIUtility.Load(System.String)">Load(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object Load(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_LoadRequired_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.LoadRequired(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L887">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_LoadRequired_" data-uid="UnityEditor.EditorGUIUtility.LoadRequired*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_LoadRequired_System_String_" data-uid="UnityEditor.EditorGUIUtility.LoadRequired(System.String)">LoadRequired(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Object LoadRequired(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_LookLikeControls.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.LookLikeControls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1124">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_LookLikeControls_" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_LookLikeControls" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls">LookLikeControls()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+[Obsolete(&quot;LookLikeControls and LookLikeInspector modes are deprecated.Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.&quot;, false)]
+public static void LookLikeControls()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_LookLikeControls_System_Single_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.LookLikeControls(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1123">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_LookLikeControls_" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_LookLikeControls_System_Single_" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls(System.Single)">LookLikeControls(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+[Obsolete(&quot;LookLikeControls and LookLikeInspector modes are deprecated.Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.&quot;, false)]
+public static void LookLikeControls(float _labelWidth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">_labelWidth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_LookLikeControls_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.LookLikeControls(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1116">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_LookLikeControls_" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_LookLikeControls_System_Single_System_Single_" data-uid="UnityEditor.EditorGUIUtility.LookLikeControls(System.Single,System.Single)">LookLikeControls(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;LookLikeControls and LookLikeInspector modes are deprecated.Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.&quot;, false)]
+public static void LookLikeControls(float _labelWidth, float _fieldWidth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">_labelWidth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">_fieldWidth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_LookLikeInspector.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.LookLikeInspector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1127">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_LookLikeInspector_" data-uid="UnityEditor.EditorGUIUtility.LookLikeInspector*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_LookLikeInspector" data-uid="UnityEditor.EditorGUIUtility.LookLikeInspector">LookLikeInspector()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;LookLikeControls and LookLikeInspector modes are deprecated.&quot;, false)]
+public static void LookLikeInspector()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_ObjectContent_UnityEngine_Object_System_Type_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.ObjectContent(UnityEngine.Object%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L758">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_ObjectContent_" data-uid="UnityEditor.EditorGUIUtility.ObjectContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_ObjectContent_UnityEngine_Object_System_Type_" data-uid="UnityEditor.EditorGUIUtility.ObjectContent(UnityEngine.Object,System.Type)">ObjectContent(Object, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GUIContent ObjectContent(Object obj, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PingObject_System_Int32_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PingObject(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L931">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PingObject_" data-uid="UnityEditor.EditorGUIUtility.PingObject*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PingObject_System_Int32_" data-uid="UnityEditor.EditorGUIUtility.PingObject(System.Int32)">PingObject(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PingObject(int targetInstanceID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">targetInstanceID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PingObject_UnityEngine_Object_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PingObject(UnityEngine.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L924">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PingObject_" data-uid="UnityEditor.EditorGUIUtility.PingObject*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PingObject_UnityEngine_Object_" data-uid="UnityEditor.EditorGUIUtility.PingObject(UnityEngine.Object)">PingObject(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PingObject(Object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PixelsToPoints_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PixelsToPoints(UnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L125">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PixelsToPoints_" data-uid="UnityEditor.EditorGUIUtility.PixelsToPoints*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PixelsToPoints_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.PixelsToPoints(UnityEngine.Rect)">PixelsToPoints(Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect PixelsToPoints(Rect rect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PixelsToPoints_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PixelsToPoints(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L143">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PixelsToPoints_" data-uid="UnityEditor.EditorGUIUtility.PixelsToPoints*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PixelsToPoints_UnityEngine_Vector2_" data-uid="UnityEditor.EditorGUIUtility.PixelsToPoints(UnityEngine.Vector2)">PixelsToPoints(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 PixelsToPoints(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PointsToPixels_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PointsToPixels(UnityEngine.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L115">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PointsToPixels_" data-uid="UnityEditor.EditorGUIUtility.PointsToPixels*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PointsToPixels_UnityEngine_Rect_" data-uid="UnityEditor.EditorGUIUtility.PointsToPixels(UnityEngine.Rect)">PointsToPixels(Rect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect PointsToPixels(Rect rect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td><span class="parametername">rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rect.html">Rect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_PointsToPixels_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.PointsToPixels(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L135">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_PointsToPixels_" data-uid="UnityEditor.EditorGUIUtility.PointsToPixels*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_PointsToPixels_UnityEngine_Vector2_" data-uid="UnityEditor.EditorGUIUtility.PointsToPixels(UnityEngine.Vector2)">PointsToPixels(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 PointsToPixels(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_QueueGameViewInputEvent_" data-uid="UnityEditor.EditorGUIUtility.QueueGameViewInputEvent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_QueueGameViewInputEvent_UnityEngine_Event_" data-uid="UnityEditor.EditorGUIUtility.QueueGameViewInputEvent(UnityEngine.Event)">QueueGameViewInputEvent(Event)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void QueueGameViewInputEvent(Event evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Event.html">Event</a></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_SerializeMainMenuToString_" data-uid="UnityEditor.EditorGUIUtility.SerializeMainMenuToString*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_SerializeMainMenuToString" data-uid="UnityEditor.EditorGUIUtility.SerializeMainMenuToString">SerializeMainMenuToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SerializeMainMenuToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_SetIconSize_" data-uid="UnityEditor.EditorGUIUtility.SetIconSize*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_SetIconSize_UnityEngine_Vector2_" data-uid="UnityEditor.EditorGUIUtility.SetIconSize(UnityEngine.Vector2)">SetIconSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetIconSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_SetMenuLocalizationTestMode_" data-uid="UnityEditor.EditorGUIUtility.SetMenuLocalizationTestMode*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_SetMenuLocalizationTestMode_System_Boolean_" data-uid="UnityEditor.EditorGUIUtility.SetMenuLocalizationTestMode(System.Boolean)">SetMenuLocalizationTestMode(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMenuLocalizationTestMode(bool onoff)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">onoff</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_EditorGUIUtility_SetWantsMouseJumping_" data-uid="UnityEditor.EditorGUIUtility.SetWantsMouseJumping*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_SetWantsMouseJumping_System_Int32_" data-uid="UnityEditor.EditorGUIUtility.SetWantsMouseJumping(System.Int32)">SetWantsMouseJumping(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetWantsMouseJumping(int wantz)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">wantz</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_ShowObjectPicker__1_UnityEngine_Object_System_Boolean_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.ShowObjectPicker%60%601(UnityEngine.Object%2CSystem.Boolean%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L1444">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_ShowObjectPicker_" data-uid="UnityEditor.EditorGUIUtility.ShowObjectPicker*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_ShowObjectPicker__1_UnityEngine_Object_System_Boolean_System_String_System_Int32_" data-uid="UnityEditor.EditorGUIUtility.ShowObjectPicker``1(UnityEngine.Object,System.Boolean,System.String,System.Int32)">ShowObjectPicker&lt;T&gt;(Object, Boolean, String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShowObjectPicker&lt;T&gt;(Object obj, bool allowSceneObjects, string searchFilter, int controlID)
+    where T : Object</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowSceneObjects</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">searchFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">controlID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrIconContent_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrIconContent(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L454">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrIconContent_" data-uid="UnityEditor.EditorGUIUtility.TrIconContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrIconContent_System_String_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrIconContent(System.String,System.String)">TrIconContent(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrIconContent(string iconName, string tooltip = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">iconName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrIconContent_UnityEngine_Texture_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrIconContent(UnityEngine.Texture%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L474">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrIconContent_" data-uid="UnityEditor.EditorGUIUtility.TrIconContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrIconContent_UnityEngine_Texture_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrIconContent(UnityEngine.Texture,System.String)">TrIconContent(Texture, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrIconContent(Texture icon, string tooltip = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTempContent_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTempContent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L492">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTempContent_" data-uid="UnityEditor.EditorGUIUtility.TrTempContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTempContent_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrTempContent(System.String)">TrTempContent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTempContent(string t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTempContent_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTempContent(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L498">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTempContent_" data-uid="UnityEditor.EditorGUIUtility.TrTempContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTempContent_System_String___" data-uid="UnityEditor.EditorGUIUtility.TrTempContent(System.String[])">TrTempContent(String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent[] TrTempContent(string[] texts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">texts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTempContent_System_String___System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTempContent(System.String%5B%5D%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L507">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTempContent_" data-uid="UnityEditor.EditorGUIUtility.TrTempContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTempContent_System_String___System_String___" data-uid="UnityEditor.EditorGUIUtility.TrTempContent(System.String[],System.String[])">TrTempContent(String[], String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent[] TrTempContent(string[] texts, string[] tooltips)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">texts</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td><span class="parametername">tooltips</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContent(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L405">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContent_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent(System.String,System.String,System.String)">TrTextContent(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContent(string text, string tooltip, string iconName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">iconName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_System_String_UnityEngine_Texture_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContent(System.String%2CSystem.String%2CSystem.String%2CUnityEngine.Texture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L378">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContent_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_System_String_UnityEngine_Texture_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent(System.String,System.String,System.String,UnityEngine.Texture)">TrTextContent(String, String, String, Texture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContent(string key, string text, string tooltip, Texture icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_UnityEngine_Texture_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContent(System.String%2CSystem.String%2CUnityEngine.Texture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L398">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContent_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContent_System_String_System_String_UnityEngine_Texture_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent(System.String,System.String,UnityEngine.Texture)">TrTextContent(String, String, Texture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContent(string text, string tooltip = null, Texture icon = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContent_System_String_UnityEngine_Texture_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContent(System.String%2CUnityEngine.Texture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L412">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContent_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContent_System_String_UnityEngine_Texture_" data-uid="UnityEditor.EditorGUIUtility.TrTextContent(System.String,UnityEngine.Texture)">TrTextContent(String, Texture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContent(string text, Texture icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L424">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,System.String)">TrTextContentWithIcon(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, string iconName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">iconName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L430">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_System_String_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,System.String,System.String)">TrTextContentWithIcon(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, string tooltip, string iconName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">iconName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_UnityEditor_MessageType_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CSystem.String%2CUnityEditor.MessageType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L442">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_UnityEditor_MessageType_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,System.String,UnityEditor.MessageType)">TrTextContentWithIcon(String, String, MessageType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, string tooltip, MessageType messageType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.MessageType.html">MessageType</a></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_UnityEngine_Texture_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CSystem.String%2CUnityEngine.Texture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L436">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_System_String_UnityEngine_Texture_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,System.String,UnityEngine.Texture)">TrTextContentWithIcon(String, String, Texture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, string tooltip, Texture icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">tooltip</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_UnityEditor_MessageType_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CUnityEditor.MessageType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L448">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_UnityEditor_MessageType_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,UnityEditor.MessageType)">TrTextContentWithIcon(String, MessageType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, MessageType messageType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.MessageType.html">MessageType</a></td>
+        <td><span class="parametername">messageType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_UnityEngine_Texture_.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String%2CUnityEngine.Texture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L418">View Source</a>
+  </span>
+  <a id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon*"></a>
+  <h4 id="UnityEditor_EditorGUIUtility_TrTextContentWithIcon_System_String_UnityEngine_Texture_" data-uid="UnityEditor.EditorGUIUtility.TrTextContentWithIcon(System.String,UnityEngine.Texture)">TrTextContentWithIcon(String, Texture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static GUIContent TrTextContentWithIcon(string text, Texture icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.GUIContent.html">GUIContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_EditorGUIUtility.md&amp;value=---%0Auid%3A%20UnityEditor.EditorGUIUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUIUtility.cs/#L25" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

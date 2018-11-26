@@ -1,0 +1,1652 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AnimatorStateMachine
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AnimatorStateMachine
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.Animations.AnimatorStateMachine">
+  
+  
+  <h1 id="UnityEditor_Animations_AnimatorStateMachine" data-uid="UnityEditor.Animations.AnimatorStateMachine" class="text-break">Class AnimatorStateMachine
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.Object.html">Object</a></div>
+    <div class="level2"><span class="xref">AnimatorStateMachine</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetInstanceID">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_name">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate_UnityEngine_Object_UnityEngine_Transform_System_Boolean_">Object.Instantiate(Object, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Instantiate__1___0_UnityEngine_Transform_System_Boolean_">Object.Instantiate&lt;T&gt;(T, Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_System_Single_">Object.Destroy(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_Destroy_UnityEngine_Object_">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_System_Boolean_">Object.DestroyImmediate(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyImmediate_UnityEngine_Object_">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType_System_Type_">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DontDestroyOnLoad_UnityEngine_Object_">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_hideFlags">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_System_Single_">Object.DestroyObject(Object, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_DestroyObject_UnityEngine_Object_">Object.DestroyObject(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindSceneObjectsOfType_System_Type_">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeIncludingAssets_System_Type_">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfType__1">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType__1">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectsOfTypeAll_System_Type_">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_FindObjectOfType_System_Type_">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.Object.html#UnityEngine_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.Animations.html">UnityEditor.Animations</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_Animations_AnimatorStateMachine_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AnimatorStateMachine : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine__ctor.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/StateMachine.bindings.cs/#L252">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine__ctor_" data-uid="UnityEditor.Animations.AnimatorStateMachine.#ctor*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine__ctor" data-uid="UnityEditor.Animations.AnimatorStateMachine.#ctor">AnimatorStateMachine()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateMachine()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_anyStatePosition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.anyStatePosition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_anyStatePosition" data-uid="UnityEditor.Animations.AnimatorStateMachine.anyStatePosition">anyStatePosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 anyStatePosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_anyStateTransitions_" data-uid="UnityEditor.Animations.AnimatorStateMachine.anyStateTransitions*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_anyStateTransitions" data-uid="UnityEditor.Animations.AnimatorStateMachine.anyStateTransitions">anyStateTransitions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateTransition[] anyStateTransitions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateTransition.html">AnimatorStateTransition</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_behaviours_" data-uid="UnityEditor.Animations.AnimatorStateMachine.behaviours*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_behaviours" data-uid="UnityEditor.Animations.AnimatorStateMachine.behaviours">behaviours</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StateMachineBehaviour[] behaviours { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.StateMachineBehaviour.html">StateMachineBehaviour</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_defaultState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.defaultState*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_defaultState" data-uid="UnityEditor.Animations.AnimatorStateMachine.defaultState">defaultState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorState defaultState { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_entryPosition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.entryPosition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_entryPosition" data-uid="UnityEditor.Animations.AnimatorStateMachine.entryPosition">entryPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 entryPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_entryTransitions_" data-uid="UnityEditor.Animations.AnimatorStateMachine.entryTransitions*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_entryTransitions" data-uid="UnityEditor.Animations.AnimatorStateMachine.entryTransitions">entryTransitions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition[] entryTransitions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_exitPosition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.exitPosition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_exitPosition" data-uid="UnityEditor.Animations.AnimatorStateMachine.exitPosition">exitPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 exitPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_parentStateMachinePosition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.parentStateMachinePosition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_parentStateMachinePosition" data-uid="UnityEditor.Animations.AnimatorStateMachine.parentStateMachinePosition">parentStateMachinePosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 parentStateMachinePosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_stateMachines_" data-uid="UnityEditor.Animations.AnimatorStateMachine.stateMachines*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_stateMachines" data-uid="UnityEditor.Animations.AnimatorStateMachine.stateMachines">stateMachines</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChildAnimatorStateMachine[] stateMachines { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.ChildAnimatorStateMachine.html">ChildAnimatorStateMachine</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_states_" data-uid="UnityEditor.Animations.AnimatorStateMachine.states*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_states" data-uid="UnityEditor.Animations.AnimatorStateMachine.states">states</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChildAnimatorState[] states { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.ChildAnimatorState.html">ChildAnimatorState</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_UnityEditor_Animations_AnimatorState_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition(UnityEditor.Animations.AnimatorState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L476">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_UnityEditor_Animations_AnimatorState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition(UnityEditor.Animations.AnimatorState)">AddAnyStateTransition(AnimatorState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateTransition AddAnyStateTransition(AnimatorState destinationState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td><span class="parametername">destinationState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateTransition.html">AnimatorStateTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition(UnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L483">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddAnyStateTransition_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddAnyStateTransition(UnityEditor.Animations.AnimatorStateMachine)">AddAnyStateTransition(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateTransition AddAnyStateTransition(AnimatorStateMachine destinationStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">destinationStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateTransition.html">AnimatorStateTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_UnityEditor_Animations_AnimatorState_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition(UnityEditor.Animations.AnimatorState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L594">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_UnityEditor_Animations_AnimatorState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition(UnityEditor.Animations.AnimatorState)">AddEntryTransition(AnimatorState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddEntryTransition(AnimatorState destinationState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td><span class="parametername">destinationState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition(UnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L601">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddEntryTransition_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddEntryTransition(UnityEditor.Animations.AnimatorStateMachine)">AddEntryTransition(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddEntryTransition(AnimatorStateMachine destinationStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">destinationStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddState_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddState(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L366">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddState_System_String_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState(System.String)">AddState(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorState AddState(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddState_System_String_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddState(System.String%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L371">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddState_System_String_UnityEngine_Vector3_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState(System.String,UnityEngine.Vector3)">AddState(String, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorState AddState(string name, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddState_UnityEditor_Animations_AnimatorState_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddState(UnityEditor.Animations.AnimatorState%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L385">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddState_UnityEditor_Animations_AnimatorState_UnityEngine_Vector3_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddState(UnityEditor.Animations.AnimatorState,UnityEngine.Vector3)">AddState(AnimatorState, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddState(AnimatorState state, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L410">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_System_String_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(System.String)">AddStateMachine(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateMachine AddStateMachine(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_System_String_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(System.String%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L415">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_System_String_UnityEngine_Vector3_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(System.String,UnityEngine.Vector3)">AddStateMachine(String, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorStateMachine AddStateMachine(string name, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_UnityEditor_Animations_AnimatorStateMachine_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(UnityEditor.Animations.AnimatorStateMachine%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L429">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachine_UnityEditor_Animations_AnimatorStateMachine_UnityEngine_Vector3_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachine(UnityEditor.Animations.AnimatorStateMachine,UnityEngine.Vector3)">AddStateMachine(AnimatorStateMachine, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddStateMachine(AnimatorStateMachine stateMachine, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">stateMachine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour_System_Type_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/StateMachine.bindings.cs/#L288">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour_System_Type_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour(System.Type)">AddStateMachineBehaviour(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
+public StateMachineBehaviour AddStateMachineBehaviour(Type stateMachineBehaviourType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">stateMachineBehaviourType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.StateMachineBehaviour.html">StateMachineBehaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour__1.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/StateMachine.bindings.cs/#L294">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineBehaviour__1" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineBehaviour``1">AddStateMachineBehaviour&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T AddStateMachineBehaviour&lt;T&gt;()
+    where T : StateMachineBehaviour</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineExitTransition_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineExitTransition(UnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L556">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineExitTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineExitTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineExitTransition_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineExitTransition(UnityEditor.Animations.AnimatorStateMachine)">AddStateMachineExitTransition(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddStateMachineExitTransition(AnimatorStateMachine sourceStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L522">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine)">AddStateMachineTransition(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddStateMachineTransition(AnimatorStateMachine sourceStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorState_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine%2CUnityEditor.Animations.AnimatorState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L549">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine,UnityEditor.Animations.AnimatorState)">AddStateMachineTransition(AnimatorStateMachine, AnimatorState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddStateMachineTransition(AnimatorStateMachine sourceStateMachine, AnimatorState destinationState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td><span class="parametername">destinationState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine%2CUnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L528">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_AddStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.AddStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine,UnityEditor.Animations.AnimatorStateMachine)">AddStateMachineTransition(AnimatorStateMachine, AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition AddStateMachineTransition(AnimatorStateMachine sourceStateMachine, AnimatorStateMachine destinationStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">destinationStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_GetStateMachineTransitions_" data-uid="UnityEditor.Animations.AnimatorStateMachine.GetStateMachineTransitions*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_GetStateMachineTransitions_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.GetStateMachineTransitions(UnityEditor.Animations.AnimatorStateMachine)">GetStateMachineTransitions(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatorTransition[] GetStateMachineTransitions(AnimatorStateMachine sourceStateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_MakeUniqueStateMachineName_" data-uid="UnityEditor.Animations.AnimatorStateMachine.MakeUniqueStateMachineName*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_MakeUniqueStateMachineName_System_String_" data-uid="UnityEditor.Animations.AnimatorStateMachine.MakeUniqueStateMachineName(System.String)">MakeUniqueStateMachineName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MakeUniqueStateMachineName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_MakeUniqueStateName_" data-uid="UnityEditor.Animations.AnimatorStateMachine.MakeUniqueStateName*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_MakeUniqueStateName_System_String_" data-uid="UnityEditor.Animations.AnimatorStateMachine.MakeUniqueStateName(System.String)">MakeUniqueStateName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MakeUniqueStateName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_RemoveAnyStateTransition_UnityEditor_Animations_AnimatorStateTransition_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.RemoveAnyStateTransition(UnityEditor.Animations.AnimatorStateTransition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L490">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_RemoveAnyStateTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveAnyStateTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_RemoveAnyStateTransition_UnityEditor_Animations_AnimatorStateTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveAnyStateTransition(UnityEditor.Animations.AnimatorStateTransition)">RemoveAnyStateTransition(AnimatorStateTransition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveAnyStateTransition(AnimatorStateTransition transition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateTransition.html">AnimatorStateTransition</a></td>
+        <td><span class="parametername">transition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_RemoveEntryTransition_UnityEditor_Animations_AnimatorTransition_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.RemoveEntryTransition(UnityEditor.Animations.AnimatorTransition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L608">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_RemoveEntryTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveEntryTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_RemoveEntryTransition_UnityEditor_Animations_AnimatorTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveEntryTransition(UnityEditor.Animations.AnimatorTransition)">RemoveEntryTransition(AnimatorTransition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveEntryTransition(AnimatorTransition transition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td><span class="parametername">transition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_RemoveState_UnityEditor_Animations_AnimatorState_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.RemoveState(UnityEditor.Animations.AnimatorState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L403">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_RemoveState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveState*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_RemoveState_UnityEditor_Animations_AnimatorState_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveState(UnityEditor.Animations.AnimatorState)">RemoveState(AnimatorState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveState(AnimatorState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorState.html">AnimatorState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachine_UnityEditor_Animations_AnimatorStateMachine_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachine(UnityEditor.Animations.AnimatorStateMachine)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L447">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachine*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachine_UnityEditor_Animations_AnimatorStateMachine_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachine(UnityEditor.Animations.AnimatorStateMachine)">RemoveStateMachine(AnimatorStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveStateMachine(AnimatorStateMachine stateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">stateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorTransition_.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine%2CUnityEditor.Animations.AnimatorTransition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/Animation/StateMachine.cs/#L563">View Source</a>
+  </span>
+  <a id="UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachineTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachineTransition*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_RemoveStateMachineTransition_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorTransition_" data-uid="UnityEditor.Animations.AnimatorStateMachine.RemoveStateMachineTransition(UnityEditor.Animations.AnimatorStateMachine,UnityEditor.Animations.AnimatorTransition)">RemoveStateMachineTransition(AnimatorStateMachine, AnimatorTransition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveStateMachineTransition(AnimatorStateMachine sourceStateMachine, AnimatorTransition transition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a></td>
+        <td><span class="parametername">transition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_Animations_AnimatorStateMachine_SetStateMachineTransitions_" data-uid="UnityEditor.Animations.AnimatorStateMachine.SetStateMachineTransitions*"></a>
+  <h4 id="UnityEditor_Animations_AnimatorStateMachine_SetStateMachineTransitions_UnityEditor_Animations_AnimatorStateMachine_UnityEditor_Animations_AnimatorTransition___" data-uid="UnityEditor.Animations.AnimatorStateMachine.SetStateMachineTransitions(UnityEditor.Animations.AnimatorStateMachine,UnityEditor.Animations.AnimatorTransition[])">SetStateMachineTransitions(AnimatorStateMachine, AnimatorTransition[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStateMachineTransitions(AnimatorStateMachine sourceStateMachine, AnimatorTransition[] transitions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorStateMachine.html">AnimatorStateMachine</a></td>
+        <td><span class="parametername">sourceStateMachine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.Animations.AnimatorTransition.html">AnimatorTransition</a>[]</td>
+        <td><span class="parametername">transitions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_Animations_AnimatorStateMachine.md&amp;value=---%0Auid%3A%20UnityEditor.Animations.AnimatorStateMachine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/artifacts/generated/bindings_old/common/Editor/StateMachineBindings.gen.cs/#L38" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

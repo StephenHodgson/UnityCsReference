@@ -1,0 +1,957 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct AtomicSafetyHandle
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct AtomicSafetyHandle
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle">
+  
+  
+  <h1 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle" class="text-break">Struct AtomicSafetyHandle
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Collections.LowLevel.Unsafe.html">Unity.Collections.LowLevel.Unsafe</a></h6>
+  <h6><strong>Assembly</strong>: UnityEngine.dll</h6>
+  <h5 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct AtomicSafetyHandle</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckDeallocateAndThrow_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckDeallocateAndThrow*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckDeallocateAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckDeallocateAndThrow(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckDeallocateAndThrow(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckExistsAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_.md&amp;value=---%0Auid%3A%20Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckExistsAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/AtomicSafetyHandle.bindings.cs/#L166">View Source</a>
+  </span>
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckExistsAndThrow_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckExistsAndThrow*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckExistsAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckExistsAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckExistsAndThrow(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckExistsAndThrow(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckGetSecondaryDataPointerAndThrow_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckGetSecondaryDataPointerAndThrow*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckGetSecondaryDataPointerAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckGetSecondaryDataPointerAndThrow(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckGetSecondaryDataPointerAndThrow(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckReadAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_.md&amp;value=---%0Auid%3A%20Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/AtomicSafetyHandle.bindings.cs/#L146">View Source</a>
+  </span>
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckReadAndThrow_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrow*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckReadAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckReadAndThrow(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckReadAndThrow(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckWriteAndBumpSecondaryVersion_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndBumpSecondaryVersion*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckWriteAndBumpSecondaryVersion_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckWriteAndBumpSecondaryVersion(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckWriteAndBumpSecondaryVersion(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckWriteAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_.md&amp;value=---%0Auid%3A%20Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/AtomicSafetyHandle.bindings.cs/#L156">View Source</a>
+  </span>
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckWriteAndThrow_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrow*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_CheckWriteAndThrow_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">CheckWriteAndThrow(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;ENABLE_UNITY_COLLECTIONS_CHECKS&quot;)]
+public static void CheckWriteAndThrow(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_Create_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Create*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_Create" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Create">Create()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AtomicSafetyHandle Create()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompleted_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompleted*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompleted_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">EnforceAllBufferJobsHaveCompleted(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnforceJobResult EnforceAllBufferJobsHaveCompleted(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.EnforceJobResult.html">EnforceJobResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompletedAndDisableReadWrite*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.EnforceJobResult.html">EnforceJobResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompletedAndRelease_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompletedAndRelease*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_EnforceAllBufferJobsHaveCompletedAndRelease_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">EnforceAllBufferJobsHaveCompletedAndRelease(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.EnforceJobResult.html">EnforceJobResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetAllowReadOrWriteAccess_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetAllowReadOrWriteAccess*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetAllowReadOrWriteAccess_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">GetAllowReadOrWriteAccess(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetAllowReadOrWriteAccess(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetReaderArray_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetReaderArray*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetReaderArray_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_System_Int32_System_IntPtr_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle,System.Int32,System.IntPtr)">GetReaderArray(AtomicSafetyHandle, Int32, IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetReaderArray(AtomicSafetyHandle handle, int maxCount, IntPtr output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetReaderName_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetReaderName*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetReaderName_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_System_Int32_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle,System.Int32)">GetReaderName(AtomicSafetyHandle, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetReaderName(AtomicSafetyHandle handle, int readerIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">readerIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetTempMemoryHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempMemoryHandle*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetTempMemoryHandle" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempMemoryHandle">GetTempMemoryHandle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AtomicSafetyHandle GetTempMemoryHandle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetTempUnsafePtrSliceHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempUnsafePtrSliceHandle*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetTempUnsafePtrSliceHandle" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempUnsafePtrSliceHandle">GetTempUnsafePtrSliceHandle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AtomicSafetyHandle GetTempUnsafePtrSliceHandle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetWriter_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetWriter*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetWriter_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">GetWriter(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JobHandle GetWriter(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Jobs.JobHandle.html">JobHandle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetWriterName_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetWriterName*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_GetWriterName_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">GetWriterName(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetWriterName(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_IsTempMemoryHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsTempMemoryHandle*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_IsTempMemoryHandle_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">IsTempMemoryHandle(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTempMemoryHandle(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_PrepareUndisposable_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.PrepareUndisposable*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_PrepareUndisposable_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle__" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.PrepareUndisposable(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle@)">PrepareUndisposable(ref AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrepareUndisposable(ref AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_Release_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Release*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_Release_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)">Release(AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Release(AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_SetAllowReadOrWriteAccess_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.SetAllowReadOrWriteAccess*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_SetAllowReadOrWriteAccess_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_System_Boolean_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle,System.Boolean)">SetAllowReadOrWriteAccess(AtomicSafetyHandle, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAllowReadOrWriteAccess(AtomicSafetyHandle handle, bool allowReadWriteAccess)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowReadWriteAccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_SetAllowSecondaryVersionWriting_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.SetAllowSecondaryVersionWriting*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_SetAllowSecondaryVersionWriting_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_System_Boolean_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle,System.Boolean)">SetAllowSecondaryVersionWriting(AtomicSafetyHandle, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAllowSecondaryVersionWriting(AtomicSafetyHandle handle, bool allowWriting)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowWriting</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_UseSecondaryVersion_" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.UseSecondaryVersion*"></a>
+  <h4 id="Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle_UseSecondaryVersion_Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle__" data-uid="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.UseSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle@)">UseSecondaryVersion(ref AtomicSafetyHandle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UseSecondaryVersion(ref AtomicSafetyHandle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.html">AtomicSafetyHandle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=Unity_Collections_LowLevel_Unsafe_AtomicSafetyHandle.md&amp;value=---%0Auid%3A%20Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/AtomicSafetyHandle.bindings.cs/#L42" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

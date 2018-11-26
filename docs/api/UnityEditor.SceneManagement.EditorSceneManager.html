@@ -1,0 +1,1656 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EditorSceneManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EditorSceneManager
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.SceneManagement.EditorSceneManager">
+  
+  
+  <h1 id="UnityEditor_SceneManagement_EditorSceneManager" data-uid="UnityEditor.SceneManagement.EditorSceneManager" class="text-break">Class EditorSceneManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="UnityEngine.SceneManagement.SceneManager.html">SceneManager</a></div>
+    <div class="level2"><span class="xref">EditorSceneManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_sceneCount">SceneManager.sceneCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_sceneCountInBuildSettings">SceneManager.sceneCountInBuildSettings</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetActiveScene">SceneManager.GetActiveScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_SetActiveScene_UnityEngine_SceneManagement_Scene_">SceneManager.SetActiveScene(Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetSceneByPath_System_String_">SceneManager.GetSceneByPath(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetSceneByName_System_String_">SceneManager.GetSceneByName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetSceneByBuildIndex_System_Int32_">SceneManager.GetSceneByBuildIndex(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetSceneAt_System_Int32_">SceneManager.GetSceneAt(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_CreateScene_System_String_UnityEngine_SceneManagement_CreateSceneParameters_">SceneManager.CreateScene(String, CreateSceneParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_MergeScenes_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_">SceneManager.MergeScenes(Scene, Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_MoveGameObjectToScene_UnityEngine_GameObject_UnityEngine_SceneManagement_Scene_">SceneManager.MoveGameObjectToScene(GameObject, Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_sceneLoaded">SceneManager.sceneLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_sceneUnloaded">SceneManager.sceneUnloaded</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_activeSceneChanged">SceneManager.activeSceneChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_GetAllScenes">SceneManager.GetAllScenes()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_CreateScene_System_String_">SceneManager.CreateScene(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_String_UnityEngine_SceneManagement_LoadSceneMode_">SceneManager.LoadScene(String, LoadSceneMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_String_">SceneManager.LoadScene(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_String_UnityEngine_SceneManagement_LoadSceneParameters_">SceneManager.LoadScene(String, LoadSceneParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_Int32_UnityEngine_SceneManagement_LoadSceneMode_">SceneManager.LoadScene(Int32, LoadSceneMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_Int32_">SceneManager.LoadScene(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadScene_System_Int32_UnityEngine_SceneManagement_LoadSceneParameters_">SceneManager.LoadScene(Int32, LoadSceneParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_Int32_UnityEngine_SceneManagement_LoadSceneMode_">SceneManager.LoadSceneAsync(Int32, LoadSceneMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_Int32_">SceneManager.LoadSceneAsync(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_Int32_UnityEngine_SceneManagement_LoadSceneParameters_">SceneManager.LoadSceneAsync(Int32, LoadSceneParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_String_UnityEngine_SceneManagement_LoadSceneMode_">SceneManager.LoadSceneAsync(String, LoadSceneMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_String_">SceneManager.LoadSceneAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_LoadSceneAsync_System_String_UnityEngine_SceneManagement_LoadSceneParameters_">SceneManager.LoadSceneAsync(String, LoadSceneParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadScene_UnityEngine_SceneManagement_Scene_">SceneManager.UnloadScene(Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadScene_System_Int32_">SceneManager.UnloadScene(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadScene_System_String_">SceneManager.UnloadScene(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadSceneAsync_System_Int32_">SceneManager.UnloadSceneAsync(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadSceneAsync_System_String_">SceneManager.UnloadSceneAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityEngine.SceneManagement.SceneManager.html#UnityEngine_SceneManagement_SceneManager_UnloadSceneAsync_UnityEngine_SceneManagement_Scene_">SceneManager.UnloadSceneAsync(Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.SceneManagement.html">UnityEditor.SceneManagement</a></h6>
+  <h6><strong>Assembly</strong>: UnityEditor.dll</h6>
+  <h5 id="UnityEditor_SceneManagement_EditorSceneManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class EditorSceneManager : SceneManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_loadedSceneCount_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.loadedSceneCount*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_loadedSceneCount" data-uid="UnityEditor.SceneManagement.EditorSceneManager.loadedSceneCount">loadedSceneCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int loadedSceneCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_playModeStartScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.playModeStartScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_playModeStartScene" data-uid="UnityEditor.SceneManagement.EditorSceneManager.playModeStartScene">playModeStartScene</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneAsset playModeStartScene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneAsset.html">SceneAsset</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_preventCrossSceneReferences_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.preventCrossSceneReferences*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_preventCrossSceneReferences" data-uid="UnityEditor.SceneManagement.EditorSceneManager.preventCrossSceneReferences">preventCrossSceneReferences</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool preventCrossSceneReferences { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_previewSceneCount_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.previewSceneCount*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_previewSceneCount" data-uid="UnityEditor.SceneManagement.EditorSceneManager.previewSceneCount">previewSceneCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int previewSceneCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_ClosePreviewScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.ClosePreviewScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_ClosePreviewScene_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.ClosePreviewScene(UnityEngine.SceneManagement.Scene)">ClosePreviewScene(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ClosePreviewScene(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_CloseScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.CloseScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_CloseScene_UnityEngine_SceneManagement_Scene_System_Boolean_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.CloseScene(UnityEngine.SceneManagement.Scene,System.Boolean)">CloseScene(Scene, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CloseScene(Scene scene, bool removeScene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">removeScene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_DetectCrossSceneReferences_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.DetectCrossSceneReferences*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_DetectCrossSceneReferences_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.DetectCrossSceneReferences(UnityEngine.SceneManagement.Scene)">DetectCrossSceneReferences(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DetectCrossSceneReferences(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_EnsureUntitledSceneHasBeenSaved_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.EnsureUntitledSceneHasBeenSaved*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_EnsureUntitledSceneHasBeenSaved_System_String_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.EnsureUntitledSceneHasBeenSaved(System.String)">EnsureUntitledSceneHasBeenSaved(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EnsureUntitledSceneHasBeenSaved(string dialogContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">dialogContent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_GetSceneManagerSetup_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.GetSceneManagerSetup*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_GetSceneManagerSetup" data-uid="UnityEditor.SceneManagement.EditorSceneManager.GetSceneManagerSetup">GetSceneManagerSetup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneSetup[] GetSceneManagerSetup()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.SceneSetup.html">SceneSetup</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_IsPreviewScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.IsPreviewScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_IsPreviewScene_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.IsPreviewScene(UnityEngine.SceneManagement.Scene)">IsPreviewScene(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPreviewScene(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_IsPreviewSceneObject_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.IsPreviewSceneObject*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_IsPreviewSceneObject_UnityEngine_Object_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.IsPreviewSceneObject(UnityEngine.Object)">IsPreviewSceneObject(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPreviewSceneObject(Object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Object.html">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_LoadSceneAsyncInPlayMode_System_String_UnityEngine_SceneManagement_LoadSceneParameters_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.LoadSceneAsyncInPlayMode(System.String%2CUnityEngine.SceneManagement.LoadSceneParameters)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L103">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_LoadSceneAsyncInPlayMode_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.LoadSceneAsyncInPlayMode*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_LoadSceneAsyncInPlayMode_System_String_UnityEngine_SceneManagement_LoadSceneParameters_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.LoadSceneAsyncInPlayMode(System.String,UnityEngine.SceneManagement.LoadSceneParameters)">LoadSceneAsyncInPlayMode(String, LoadSceneParameters)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AsyncOperation LoadSceneAsyncInPlayMode(string path, LoadSceneParameters parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.LoadSceneParameters.html">LoadSceneParameters</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.AsyncOperation.html">AsyncOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_LoadSceneInPlayMode_System_String_UnityEngine_SceneManagement_LoadSceneParameters_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(System.String%2CUnityEngine.SceneManagement.LoadSceneParameters)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L94">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_LoadSceneInPlayMode_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_LoadSceneInPlayMode_System_String_UnityEngine_SceneManagement_LoadSceneParameters_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(System.String,UnityEngine.SceneManagement.LoadSceneParameters)">LoadSceneInPlayMode(String, LoadSceneParameters)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene LoadSceneInPlayMode(string path, LoadSceneParameters parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.LoadSceneParameters.html">LoadSceneParameters</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_MarkAllScenesDirty_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_MarkAllScenesDirty" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty">MarkAllScenesDirty()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MarkAllScenesDirty()</code></pre>
+  </div>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_MarkSceneDirty_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_MarkSceneDirty_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.Scene)">MarkSceneDirty(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool MarkSceneDirty(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_MoveSceneAfter_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MoveSceneAfter*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_MoveSceneAfter_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MoveSceneAfter(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)">MoveSceneAfter(Scene, Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MoveSceneAfter(Scene src, Scene dst)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">dst</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_MoveSceneBefore_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MoveSceneBefore*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_MoveSceneBefore_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.MoveSceneBefore(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)">MoveSceneBefore(Scene, Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MoveSceneBefore(Scene src, Scene dst)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">dst</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_NewPreviewScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewPreviewScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_NewPreviewScene" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewPreviewScene">NewPreviewScene()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene NewPreviewScene()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_NewScene_UnityEditor_SceneManagement_NewSceneSetup_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.NewScene(UnityEditor.SceneManagement.NewSceneSetup)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L36">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_NewScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_NewScene_UnityEditor_SceneManagement_NewSceneSetup_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewScene(UnityEditor.SceneManagement.NewSceneSetup)">NewScene(NewSceneSetup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static Scene NewScene(NewSceneSetup setup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.NewSceneSetup.html">NewSceneSetup</a></td>
+        <td><span class="parametername">setup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_NewScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_NewScene_UnityEditor_SceneManagement_NewSceneSetup_UnityEditor_SceneManagement_NewSceneMode_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.NewScene(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode)">NewScene(NewSceneSetup, NewSceneMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene NewScene(NewSceneSetup setup, [DefaultValue(&quot;NewSceneMode.Single&quot;)] NewSceneMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.NewSceneSetup.html">NewSceneSetup</a></td>
+        <td><span class="parametername">setup</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.NewSceneMode.html">NewSceneMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_OpenScene_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.OpenScene(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L28">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_OpenScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.OpenScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_OpenScene_System_String_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.OpenScene(System.String)">OpenScene(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static Scene OpenScene(string scenePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">scenePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_OpenScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.OpenScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_OpenScene_System_String_UnityEditor_SceneManagement_OpenSceneMode_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.OpenScene(System.String,UnityEditor.SceneManagement.OpenSceneMode)">OpenScene(String, OpenSceneMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene OpenScene(string scenePath, [DefaultValue(&quot;OpenSceneMode.Single&quot;)] OpenSceneMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">scenePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.OpenSceneMode.html">OpenSceneMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_RestoreSceneManagerSetup_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_RestoreSceneManagerSetup_UnityEditor_SceneManagement_SceneSetup___" data-uid="UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup(UnityEditor.SceneManagement.SceneSetup[])">RestoreSceneManagerSetup(SceneSetup[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RestoreSceneManagerSetup(SceneSetup[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.SceneSetup.html">SceneSetup</a>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveCurrentModifiedScenesIfUserWantsTo_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveCurrentModifiedScenesIfUserWantsTo" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo">SaveCurrentModifiedScenesIfUserWantsTo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SaveCurrentModifiedScenesIfUserWantsTo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveModifiedScenesIfUserWantsTo_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveModifiedScenesIfUserWantsTo*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveModifiedScenesIfUserWantsTo_UnityEngine_SceneManagement_Scene___" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveModifiedScenesIfUserWantsTo(UnityEngine.SceneManagement.Scene[])">SaveModifiedScenesIfUserWantsTo(Scene[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SaveModifiedScenesIfUserWantsTo(Scene[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveOpenScenes_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveOpenScenes*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveOpenScenes" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveOpenScenes">SaveOpenScenes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SaveOpenScenes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L51">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene)">SaveScene(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static bool SaveScene(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L44">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_System_String_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene,System.String)">SaveScene(Scene, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExcludeFromDocs]
+public static bool SaveScene(Scene scene, string dstScenePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">dstScenePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L59">View Source</a>
+  </span>
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveScene_UnityEngine_SceneManagement_Scene_System_String_System_Boolean_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.Scene,System.String,System.Boolean)">SaveScene(Scene, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SaveScene(Scene scene, [DefaultValue(&quot;\&quot;\&quot;&quot;)] string dstScenePath, [DefaultValue(&quot;false&quot;)] bool saveAsCopy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">dstScenePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">saveAsCopy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UnityEditor_SceneManagement_EditorSceneManager_SaveScenes_" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScenes*"></a>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_SaveScenes_UnityEngine_SceneManagement_Scene___" data-uid="UnityEditor.SceneManagement.EditorSceneManager.SaveScenes(UnityEngine.SceneManagement.Scene[])">SaveScenes(Scene[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SaveScenes(Scene[] scenes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a>[]</td>
+        <td><span class="parametername">scenes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_activeSceneChangedInEditMode.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.activeSceneChangedInEditMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorSceneManager.cs/#L83">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_activeSceneChangedInEditMode" data-uid="UnityEditor.SceneManagement.EditorSceneManager.activeSceneChangedInEditMode">activeSceneChangedInEditMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UnityAction&lt;Scene, Scene&gt; activeSceneChangedInEditMode</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Events.UnityAction-2.html">UnityAction</a>&lt;<a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a>, <a class="xref" href="UnityEngine.SceneManagement.Scene.html">Scene</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_newSceneCreated.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.newSceneCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L25">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_newSceneCreated" data-uid="UnityEditor.SceneManagement.EditorSceneManager.newSceneCreated">newSceneCreated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.NewSceneCreatedCallback newSceneCreated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.NewSceneCreatedCallback.html">EditorSceneManager.NewSceneCreatedCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneClosed.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneClosed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L29">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneClosed" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneClosed">sceneClosed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneClosedCallback sceneClosed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneClosedCallback.html">EditorSceneManager.SceneClosedCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneClosing.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneClosing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L28">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneClosing" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneClosing">sceneClosing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneClosingCallback sceneClosing</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneClosingCallback.html">EditorSceneManager.SceneClosingCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneOpened.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneOpened%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L27">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneOpened" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneOpened">sceneOpened</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneOpenedCallback sceneOpened</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneOpenedCallback.html">EditorSceneManager.SceneOpenedCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneOpening.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneOpening%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L26">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneOpening" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneOpening">sceneOpening</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneOpeningCallback sceneOpening</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneOpeningCallback.html">EditorSceneManager.SceneOpeningCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneSaved.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneSaved%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L31">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneSaved" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneSaved">sceneSaved</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneSavedCallback sceneSaved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneSavedCallback.html">EditorSceneManager.SceneSavedCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager_sceneSaving.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager.sceneSaving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L30">View Source</a>
+  </span>
+  <h4 id="UnityEditor_SceneManagement_EditorSceneManager_sceneSaving" data-uid="UnityEditor.SceneManagement.EditorSceneManager.sceneSaving">sceneSaving</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EditorSceneManager.SceneSavingCallback sceneSaving</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.SceneManagement.EditorSceneManager.SceneSavingCallback.html">EditorSceneManager.SceneSavingCallback</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEditor_SceneManagement_EditorSceneManager.md&amp;value=---%0Auid%3A%20UnityEditor.SceneManagement.EditorSceneManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/SceneManagement/EditorSceneManager.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

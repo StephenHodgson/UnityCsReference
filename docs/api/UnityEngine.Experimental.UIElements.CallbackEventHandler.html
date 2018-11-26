@@ -1,0 +1,909 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CallbackEventHandler
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CallbackEventHandler
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler">
+  
+  
+  <h1 id="UnityEngine_Experimental_UIElements_CallbackEventHandler" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler" class="text-break">Class CallbackEventHandler
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CallbackEventHandler</span></div>
+      <div class="level2"><a class="xref" href="UnityEngine.Experimental.UIElements.Focusable.html">Focusable</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityEngine.Experimental.UIElements.IEventHandler.html">IEventHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEngine.Experimental.UIElements.html">UnityEngine.Experimental.UIElements</a></h6>
+  <h6><strong>Assembly</strong>: UnityEngine.dll</h6>
+  <h5 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CallbackEventHandler : IEventHandler</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultAction_UnityEngine_Experimental_UIElements_EventBase_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultAction(UnityEngine.Experimental.UIElements.EventBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L155">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultAction_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultAction*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultAction_UnityEngine_Experimental_UIElements_EventBase_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultAction(UnityEngine.Experimental.UIElements.EventBase)">ExecuteDefaultAction(EventBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ExecuteDefaultAction(EventBase evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventBase.html">EventBase</a></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultActionAtTarget_UnityEngine_Experimental_UIElements_EventBase_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultActionAtTarget(UnityEngine.Experimental.UIElements.EventBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L153">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultActionAtTarget_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultActionAtTarget*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_ExecuteDefaultActionAtTarget_UnityEngine_Experimental_UIElements_EventBase_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.ExecuteDefaultActionAtTarget(UnityEngine.Experimental.UIElements.EventBase)">ExecuteDefaultActionAtTarget(EventBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ExecuteDefaultActionAtTarget(EventBase evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventBase.html">EventBase</a></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_HandleEvent_UnityEngine_Experimental_UIElements_EventBase_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.HandleEvent(UnityEngine.Experimental.UIElements.EventBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L108">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HandleEvent_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HandleEvent*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HandleEvent_UnityEngine_Experimental_UIElements_EventBase_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HandleEvent(UnityEngine.Experimental.UIElements.EventBase)">HandleEvent(EventBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void HandleEvent(EventBase evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventBase.html">EventBase</a></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleHandlers.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L147">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleHandlers_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleHandlers*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleHandlers" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleHandlers">HasBubbleHandlers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HasBubbleUpHandlers instead of HasBubbleHandlers.&quot;)]
+public bool HasBubbleHandlers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleUpHandlers.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleUpHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L136">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleUpHandlers_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleUpHandlers*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasBubbleUpHandlers" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasBubbleUpHandlers">HasBubbleUpHandlers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBubbleUpHandlers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_HasCaptureHandlers.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.HasCaptureHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L141">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasCaptureHandlers_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasCaptureHandlers*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasCaptureHandlers" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasCaptureHandlers">HasCaptureHandlers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use HasTrickleDownHandlers instead of HasCaptureHandlers.&quot;)]
+public bool HasCaptureHandlers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_HasTrickleDownHandlers.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.HasTrickleDownHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L131">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasTrickleDownHandlers_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasTrickleDownHandlers*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_HasTrickleDownHandlers" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.HasTrickleDownHandlers">HasTrickleDownHandlers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTrickleDownHandlers()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_Capture_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback%60%601(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%7D%2CUnityEngine.Experimental.UIElements.Capture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L30">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_Capture_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback``1(UnityEngine.Experimental.UIElements.EventCallback{``0},UnityEngine.Experimental.UIElements.Capture)">RegisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt;, Capture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use TrickleDown instead of Capture.&quot;)]
+public void RegisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt; callback, Capture useCapture)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-1.html">EventCallback</a>&lt;TEventType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.Capture.html">Capture</a></td>
+        <td><span class="parametername">useCapture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_TrickleDown_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback%60%601(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%7D%2CUnityEngine.Experimental.UIElements.TrickleDown)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L37">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_TrickleDown_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback``1(UnityEngine.Experimental.UIElements.EventCallback{``0},UnityEngine.Experimental.UIElements.TrickleDown)">RegisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt;, TrickleDown)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt; callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-1.html">EventCallback</a>&lt;TEventType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.TrickleDown.html">TrickleDown</a></td>
+        <td><span class="parametername">useTrickleDown</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1____1_UnityEngine_Experimental_UIElements_Capture_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback%60%602(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%2C%60%601%7D%2C%60%601%2CUnityEngine.Experimental.UIElements.Capture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L47">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1____1_UnityEngine_Experimental_UIElements_Capture_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback``2(UnityEngine.Experimental.UIElements.EventCallback{``0,``1},``1,UnityEngine.Experimental.UIElements.Capture)">RegisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt;, TUserArgsType, Capture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use TrickleDown instead of Capture.&quot;)]
+public void RegisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt; callback, TUserArgsType userArgs, Capture useCapture)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-2.html">EventCallback</a>&lt;TEventType, TUserArgsType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TUserArgsType</span></td>
+        <td><span class="parametername">userArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.Capture.html">Capture</a></td>
+        <td><span class="parametername">useCapture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TUserArgsType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1____1_UnityEngine_Experimental_UIElements_TrickleDown_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback%60%602(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%2C%60%601%7D%2C%60%601%2CUnityEngine.Experimental.UIElements.TrickleDown)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L54">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_RegisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1____1_UnityEngine_Experimental_UIElements_TrickleDown_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.RegisterCallback``2(UnityEngine.Experimental.UIElements.EventCallback{``0,``1},``1,UnityEngine.Experimental.UIElements.TrickleDown)">RegisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt;, TUserArgsType, TrickleDown)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt; callback, TUserArgsType userArgs, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-2.html">EventCallback</a>&lt;TEventType, TUserArgsType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TUserArgsType</span></td>
+        <td><span class="parametername">userArgs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.TrickleDown.html">TrickleDown</a></td>
+        <td><span class="parametername">useTrickleDown</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TUserArgsType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_SendEvent_UnityEngine_Experimental_UIElements_EventBase_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.SendEvent(UnityEngine.Experimental.UIElements.EventBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L106">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_SendEvent_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.SendEvent*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_SendEvent_UnityEngine_Experimental_UIElements_EventBase_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.SendEvent(UnityEngine.Experimental.UIElements.EventBase)">SendEvent(EventBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SendEvent(EventBase e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventBase.html">EventBase</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_Capture_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback%60%601(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%7D%2CUnityEngine.Experimental.UIElements.Capture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L64">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_Capture_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback``1(UnityEngine.Experimental.UIElements.EventCallback{``0},UnityEngine.Experimental.UIElements.Capture)">UnregisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt;, Capture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use TrickleDown instead of Capture.&quot;)]
+public void UnregisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt; callback, Capture useCapture)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-1.html">EventCallback</a>&lt;TEventType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.Capture.html">Capture</a></td>
+        <td><span class="parametername">useCapture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_TrickleDown_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback%60%601(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%7D%2CUnityEngine.Experimental.UIElements.TrickleDown)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L71">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__1_UnityEngine_Experimental_UIElements_EventCallback___0__UnityEngine_Experimental_UIElements_TrickleDown_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback``1(UnityEngine.Experimental.UIElements.EventCallback{``0},UnityEngine.Experimental.UIElements.TrickleDown)">UnregisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt;, TrickleDown)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterCallback&lt;TEventType&gt;(EventCallback&lt;TEventType&gt; callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-1.html">EventCallback</a>&lt;TEventType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.TrickleDown.html">TrickleDown</a></td>
+        <td><span class="parametername">useTrickleDown</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1__UnityEngine_Experimental_UIElements_Capture_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback%60%602(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%2C%60%601%7D%2CUnityEngine.Experimental.UIElements.Capture)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L79">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1__UnityEngine_Experimental_UIElements_Capture_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback``2(UnityEngine.Experimental.UIElements.EventCallback{``0,``1},UnityEngine.Experimental.UIElements.Capture)">UnregisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt;, Capture)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use TrickleDown instead of Capture.&quot;)]
+public void UnregisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt; callback, Capture useCapture)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-2.html">EventCallback</a>&lt;TEventType, TUserArgsType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.Capture.html">Capture</a></td>
+        <td><span class="parametername">useCapture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TUserArgsType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1__UnityEngine_Experimental_UIElements_TrickleDown_.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback%60%602(UnityEngine.Experimental.UIElements.EventCallback%7B%60%600%2C%60%601%7D%2CUnityEngine.Experimental.UIElements.TrickleDown)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L86">View Source</a>
+  </span>
+  <a id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback*"></a>
+  <h4 id="UnityEngine_Experimental_UIElements_CallbackEventHandler_UnregisterCallback__2_UnityEngine_Experimental_UIElements_EventCallback___0___1__UnityEngine_Experimental_UIElements_TrickleDown_" data-uid="UnityEngine.Experimental.UIElements.CallbackEventHandler.UnregisterCallback``2(UnityEngine.Experimental.UIElements.EventCallback{``0,``1},UnityEngine.Experimental.UIElements.TrickleDown)">UnregisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt;, TrickleDown)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterCallback&lt;TEventType, TUserArgsType&gt;(EventCallback&lt;TEventType, TUserArgsType&gt; callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown)
+    where TEventType : EventBase&lt;TEventType&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.EventCallback-2.html">EventCallback</a>&lt;TEventType, TUserArgsType&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Experimental.UIElements.TrickleDown.html">TrickleDown</a></td>
+        <td><span class="parametername">useTrickleDown</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEventType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TUserArgsType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.IEventHandler.html">IEventHandler</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.MouseCaptureController.html#UnityEngine_Experimental_UIElements_MouseCaptureController_HasMouseCapture_UnityEngine_Experimental_UIElements_IEventHandler_">MouseCaptureController.HasMouseCapture(IEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.MouseCaptureController.html#UnityEngine_Experimental_UIElements_MouseCaptureController_TakeMouseCapture_UnityEngine_Experimental_UIElements_IEventHandler_">MouseCaptureController.TakeMouseCapture(IEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.MouseCaptureController.html#UnityEngine_Experimental_UIElements_MouseCaptureController_CaptureMouse_UnityEngine_Experimental_UIElements_IEventHandler_">MouseCaptureController.CaptureMouse(IEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.MouseCaptureController.html#UnityEngine_Experimental_UIElements_MouseCaptureController_ReleaseMouseCapture_UnityEngine_Experimental_UIElements_IEventHandler_">MouseCaptureController.ReleaseMouseCapture(IEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Experimental.UIElements.MouseCaptureController.html#UnityEngine_Experimental_UIElements_MouseCaptureController_ReleaseMouse_UnityEngine_Experimental_UIElements_IEventHandler_">MouseCaptureController.ReleaseMouse(IEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_">MustExtensions.MustBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeEqual__1___0___0_System_String_">MustExtensions.MustBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeEqual__1___0___0_System_String_">MustExtensions.MustNotBeEqual&lt;T&gt;(T, T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_">MustExtensions.MustBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustBeNull__1___0_System_String_">MustExtensions.MustBeNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_">MustExtensions.MustNotBeNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEngine.Assertions.Must.MustExtensions.html#UnityEngine_Assertions_Must_MustExtensions_MustNotBeNull__1___0_System_String_">MustExtensions.MustNotBeNull&lt;T&gt;(T, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/new/master/apiSpec/new?filename=UnityEngine_Experimental_UIElements_CallbackEventHandler.md&amp;value=---%0Auid%3A%20UnityEngine.Experimental.UIElements.CallbackEventHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Unity-Technologies/UnityCsReference/blob/master/Modules/UIElements/Events/EventHandler.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
